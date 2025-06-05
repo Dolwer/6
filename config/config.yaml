@@ -1,0 +1,38 @@
+imap:
+  host: "imappro.zoho.eu"
+  port: 993
+  timeout: 30
+  retry_attempts: 3
+  folders:
+    sent: ["Sent Items", "Sent", "Отправленные", "Send"]
+    inbox: ["INBOX"]
+
+search:
+  days_back: 14
+  max_emails_per_batch: 100
+
+lm_studio:
+  api_url: "http://localhost:1234/v1/completions"
+  model_name: "qwen3-8b"
+  timeout: 90
+  max_tokens: 512
+  temperature: 0.0
+  retry_attempts: 2
+
+excel:
+  file_name: "Mail_USD.xlsx"
+  columns:
+    price_usd: "Price usd"
+    price_usd_casino: "Price usd casino"
+    mail: "Mail"
+    payment: "Payment"
+    special: "Inform"
+    comments: "Comments"
+  backup: true
+  highlight_changes: true
+
+logging:
+  level: "INFO"
+  file: "bot.log"
+  format: "[%(asctime)s] [%(levelname)s] %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
