@@ -5,7 +5,6 @@ import csv
 import pandas as pd
 from dotenv import load_dotenv
 from pathlib import Path
-
 from config.settings import settings
 from src.utils import (
     filter_rows_with_valid_mail,
@@ -152,7 +151,7 @@ def main():
     ) as imap:
         sent_emails = imap.get_sent_emails(
             days_back=settings.get("search.days_back", 14),
-            limit=settings.get("search.max_emails_per_batch", 100)
+            limit=settings.get("search.max_emails_per_batch", 10000)
         )
         stats.total_sent = len(sent_emails)
 

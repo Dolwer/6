@@ -91,20 +91,10 @@ class IMAPClient:
         return folder_name
 
     def _list_folders(self):
-        for attempt in range(self.retry_attempts):
-            try:
-                typ, folders = self.conn.list()
-                if typ != "OK":
-                    raise Exception("Cannot list IMAP folders")
-                break
-            except imaplib.IMAP4.abort as e:
-                self.logger.warning(f"IMAP list folders failed: {e}. Reconnecting (try {attempt+1})...")
-                self.connect()
-            except Exception as e:
-                self.logger.warning(f"Unexpected error in list folders: {e}")
-                if attempt == self.retry_attempts - 1:
-                    raise
-                time.sleep(2 ** attempt)
+        typ, folders = self.conn.list()
+        if typ != "OK":
+            raise RuntimeError("Cannot list IMAP folders")
+        
         folder_info = []
         for f in folders:
             decoded = f.decode()
@@ -117,31 +107,32 @@ class IMAPClient:
                     'raw': raw_name,
                     'decoded': decoded_name
                 })
+        
         self.logger.debug(f"Available IMAP folders: {[f['decoded'] for f in folder_info]}")
         return folder_info
 
     def _select_folder(self, possible_names):
         folder_info = self._list_folders()
-
+        
         # Создаем словари для поиска по декодированным и сырым именам
         decoded_map = {f['decoded'].strip().lower(): f['raw'] for f in folder_info}
         raw_map = {f['raw'].strip().lower(): f['raw'] for f in folder_info}
-
+        
         # Логируем доступные папки для отладки
         decoded_names = [f['decoded'] for f in folder_info]
         self.logger.info(f"Decoded folder names: {decoded_names}")
-
+        
         for name in possible_names:
             norm = name.strip().lower()
             real_name = None
-
+            
             # Сначала ищем среди декодированных имен
             if norm in decoded_map:
                 real_name = decoded_map[norm]
             # Затем среди сырых имен
             elif norm in raw_map:
                 real_name = raw_map[norm]
-
+            
             if real_name:
                 try:
                     # Пробуем выбрать папку
@@ -156,7 +147,7 @@ class IMAPClient:
                         self.logger.warning(f"Failed to select folder {real_name} (IMAP returned {typ})")
                 except Exception as e:
                     self.logger.warning(f"Error selecting folder {real_name}: {e}")
-
+        
         available_names = [f['decoded'] for f in folder_info]
         self.logger.warning(f"None of the folders {possible_names} found. Available: {available_names}")
         return False
@@ -176,7 +167,7 @@ class IMAPClient:
             self.logger.warning("IMAP search failed for sent emails.")
             return []
 
-        ids = data[0].split()[-limit:]
+        ids = data[0].split()
         self.logger.info(f"DEBUG: Всего найдено id писем: {len(ids)}")
 
         emails = []
