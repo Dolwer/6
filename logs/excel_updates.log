@@ -424,3 +424,833 @@
 [2025-06-08 14:03:53] NOT found in index
 [2025-06-08 14:03:53] === END DEBUG EMAIL SEARCH ===
 [2025-06-08 14:04:13] Backup Excel created: Mail_USD_backup_20250608_140413.xlsx
+[2025-06-09 15:09:20] Created email index: ['info@webcamsdeasturias.com', 'virgil.munteanu@evz.ro', 'redaccion@panoramacultural.com.co', 'info@worldonline.es', 'webmaster@01webdirectory.com', 'lourdsdiaz19.87@gmail.com', 'concursos@frcu.utn.edu.ar', '6707133@gmail.com', '1000tipsinformaticos@gmail.com', 'redacao@1001coisas.app.br', 'pedidos@100articulos.com.ar', 'paulabijari@gmail.com', 'hr@101blockchains.com', 'support@101greatgoals.com', 'editor@berabere.com', 'enquiries@11v11.com', 'feedback@123articleonline.com', 'contato@123noticias.com.br', 'dmandl@austriansoccerboard.com', 'radek@blackjack-winner.de']...
+[2025-06-09 15:10:52] === UPDATE ROWS STARTED for email: uaeplatform.net@gmail.com ===
+[2025-06-09 15:10:52] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:10:52] Raw response type: <class 'dict'>
+[2025-06-09 15:10:52] Raw response length: 226 characters
+[2025-06-09 15:10:52] Raw response preview (first 500 chars): {'Price usd': '250', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 15:10:52] === PARSING FAILED ===
+[2025-06-09 15:10:52] No valid JSON objects found in response
+[2025-06-09 15:10:52] Text content was: {'Price usd': '250', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 15:10:52] No valid data extracted, skipping update for uaeplatform.net@gmail.com
+[2025-06-09 15:10:52] === DEBUG EMAIL SEARCH for: uaeplatform.net@gmail.com ===
+[2025-06-09 15:10:52] Extracted emails: ['uaeplatform.net@gmail.com']
+[2025-06-09 15:10:52] Normalized email: uaeplatform.net@gmail.com
+[2025-06-09 15:10:52] Found in index at rows: [9306]
+[2025-06-09 15:10:52] Row 9306 original email: 'uaeplatform.net@gmail.com'
+[2025-06-09 15:10:52] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:11:17] === UPDATE ROWS STARTED for email: wikigulf@gmail.com ===
+[2025-06-09 15:11:17] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:11:17] Raw response type: <class 'dict'>
+[2025-06-09 15:11:17] Raw response length: 226 characters
+[2025-06-09 15:11:17] Raw response preview (first 500 chars): {'Price usd': '200', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 15:11:17] === PARSING FAILED ===
+[2025-06-09 15:11:17] No valid JSON objects found in response
+[2025-06-09 15:11:17] Text content was: {'Price usd': '200', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 15:11:17] No valid data extracted, skipping update for wikigulf@gmail.com
+[2025-06-09 15:11:17] === DEBUG EMAIL SEARCH for: wikigulf@gmail.com ===
+[2025-06-09 15:11:17] Extracted emails: ['wikigulf@gmail.com']
+[2025-06-09 15:11:17] Normalized email: wikigulf@gmail.com
+[2025-06-09 15:11:17] Found in index at rows: [9336]
+[2025-06-09 15:11:17] Row 9336 original email: 'wikigulf@gmail.com'
+[2025-06-09 15:11:17] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:11:48] === UPDATE ROWS STARTED for email: zepredict@gmail.com ===
+[2025-06-09 15:11:48] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:11:48] Raw response type: <class 'dict'>
+[2025-06-09 15:11:48] Raw response length: 126 characters
+[2025-06-09 15:11:48] Raw response preview (first 500 chars): {'Price usd': '50', 'Price usd casino': '', 'Payment': 'link', 'Inform': 'We accept such link on our website', 'Comments': ''}
+[2025-06-09 15:11:48] === PARSING FAILED ===
+[2025-06-09 15:11:48] No valid JSON objects found in response
+[2025-06-09 15:11:48] Text content was: {'Price usd': '50', 'Price usd casino': '', 'Payment': 'link', 'Inform': 'We accept such link on our website', 'Comments': ''}
+[2025-06-09 15:11:48] No valid data extracted, skipping update for zepredict@gmail.com
+[2025-06-09 15:11:48] === DEBUG EMAIL SEARCH for: zepredict@gmail.com ===
+[2025-06-09 15:11:48] Extracted emails: ['zepredict@gmail.com']
+[2025-06-09 15:11:48] Normalized email: zepredict@gmail.com
+[2025-06-09 15:11:48] Found in index at rows: [9349, 11588]
+[2025-06-09 15:11:48] Row 9349 original email: 'zepredict@gmail.com'
+[2025-06-09 15:11:48] Row 11588 original email: 'zepredict@gmail.com'
+[2025-06-09 15:11:48] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:14:01] === UPDATE ROWS STARTED for email: contact@techhbs.com ===
+[2025-06-09 15:14:01] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:14:01] Raw response type: <class 'dict'>
+[2025-06-09 15:14:01] Raw response length: 466 characters
+[2025-06-09 15:14:01] Raw response preview (first 500 chars): {'Price usd': '300', 'Price usd casino': '500', 'Payment': 'paypal/bank transfer', 'Inform': 'advance payment required before publication, articles published instantly upon payment confirmation, articles live permanently, indexed within 20 minutes, title shown on google in 2-6 hours', 'Comments': 'accepts casino links in pure tech articles, homepage banner backlink for $4000/year, only one do-follow link allowed per article, no sponsored tags in guest articles'}
+[2025-06-09 15:14:01] === PARSING FAILED ===
+[2025-06-09 15:14:01] No valid JSON objects found in response
+[2025-06-09 15:14:01] Text content was: {'Price usd': '300', 'Price usd casino': '500', 'Payment': 'paypal/bank transfer', 'Inform': 'advance payment required before publication, articles published instantly upon payment confirmation, articles live permanently, indexed within 20 minutes, title shown on google in 2-6 hours', 'Comments': 'accepts casino links in pure tech articles, homepage banner backlink for $4000/year, only one do-follow link allowed per article, no sponsored tags in guest articles'}
+[2025-06-09 15:14:01] No valid data extracted, skipping update for contact@techhbs.com
+[2025-06-09 15:14:01] === DEBUG EMAIL SEARCH for: contact@techhbs.com ===
+[2025-06-09 15:14:01] Extracted emails: ['contact@techhbs.com']
+[2025-06-09 15:14:01] Normalized email: contact@techhbs.com
+[2025-06-09 15:14:01] Found in index at rows: [8800]
+[2025-06-09 15:14:01] Row 8800 original email: 'contact@techhbs.com'
+[2025-06-09 15:14:01] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:14:29] === UPDATE ROWS STARTED for email: contact@urdufeed.org ===
+[2025-06-09 15:14:29] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:14:29] Raw response type: <class 'dict'>
+[2025-06-09 15:14:29] Raw response length: 122 characters
+[2025-06-09 15:14:29] Raw response preview (first 500 chars): {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 15:14:29] === PARSING FAILED ===
+[2025-06-09 15:14:29] No valid JSON objects found in response
+[2025-06-09 15:14:29] Text content was: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 15:14:29] No valid data extracted, skipping update for contact@urdufeed.org
+[2025-06-09 15:14:29] === DEBUG EMAIL SEARCH for: contact@urdufeed.org ===
+[2025-06-09 15:14:29] Extracted emails: ['contact@urdufeed.org']
+[2025-06-09 15:14:29] Normalized email: contact@urdufeed.org
+[2025-06-09 15:14:29] Found in index at rows: [8805, 9795]
+[2025-06-09 15:14:29] Row 8805 original email: 'contact@urdufeed.org'
+[2025-06-09 15:14:29] Row 9795 original email: 'contact@urdufeed.org'
+[2025-06-09 15:14:29] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:16:11] === UPDATE ROWS STARTED for email: covertvoice.official@gmail.com ===
+[2025-06-09 15:16:11] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:16:11] Raw response type: <class 'dict'>
+[2025-06-09 15:16:11] Raw response length: 330 characters
+[2025-06-09 15:16:11] Raw response preview (first 500 chars): {'Price usd': '200', 'Price usd casino': '', 'Payment': '', 'Inform': 'liistudio.com, covertvoice.com, thetechvine.com, thegeekinsights.com', 'Comments': "We are accepting guest posts related to tech, business, marketing etc. relevant to each website. Note: We don't accept links like Casino, CBD, betting, gambling, dating etc."}
+[2025-06-09 15:16:11] === PARSING FAILED ===
+[2025-06-09 15:16:11] No valid JSON objects found in response
+[2025-06-09 15:16:11] Text content was: {'Price usd': '200', 'Price usd casino': '', 'Payment': '', 'Inform': 'liistudio.com, covertvoice.com, thetechvine.com, thegeekinsights.com', 'Comments': "We are accepting guest posts related to tech, business, marketing etc. relevant to each website. Note: We don't accept links like Casino, CBD, betting, gambling, dating etc."}
+[2025-06-09 15:16:11] No valid data extracted, skipping update for covertvoice.official@gmail.com
+[2025-06-09 15:16:11] === DEBUG EMAIL SEARCH for: covertvoice.official@gmail.com ===
+[2025-06-09 15:16:11] Extracted emails: ['covertvoice.official@gmail.com']
+[2025-06-09 15:16:11] Normalized email: covertvoice.official@gmail.com
+[2025-06-09 15:16:11] Found in index at rows: [8822, 9846]
+[2025-06-09 15:16:11] Row 8822 original email: 'covertvoice.official@gmail.com'
+[2025-06-09 15:16:11] Row 9846 original email: 'covertvoice.official@gmail.com'
+[2025-06-09 15:16:11] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:16:54] === UPDATE ROWS STARTED for email: editor@plungedaily.com ===
+[2025-06-09 15:16:54] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:16:54] Raw response type: <class 'dict'>
+[2025-06-09 15:16:54] Raw response length: 228 characters
+[2025-06-09 15:16:54] Raw response preview (first 500 chars): {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': "Need author's name, image, short profile; max 500-600 words; 6% PayPal Surcharge; higher fees for unaccepted subjects ($500-$600)", 'Comments': ''}
+[2025-06-09 15:16:54] === PARSING FAILED ===
+[2025-06-09 15:16:54] No valid JSON objects found in response
+[2025-06-09 15:16:54] Text content was: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': "Need author's name, image, short profile; max 500-600 words; 6% PayPal Surcharge; higher fees for unaccepted subjects ($500-$600)", 'Comments': ''}
+[2025-06-09 15:16:54] No valid data extracted, skipping update for editor@plungedaily.com
+[2025-06-09 15:16:54] === DEBUG EMAIL SEARCH for: editor@plungedaily.com ===
+[2025-06-09 15:16:54] Extracted emails: ['editor@plungedaily.com']
+[2025-06-09 15:16:54] Normalized email: editor@plungedaily.com
+[2025-06-09 15:16:54] Found in index at rows: [8860]
+[2025-06-09 15:16:54] Row 8860 original email: 'editor@plungedaily.com'
+[2025-06-09 15:16:54] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:17:23] === UPDATE ROWS STARTED for email: editor@thecloudvibe.com ===
+[2025-06-09 15:17:23] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:17:23] Raw response type: <class 'dict'>
+[2025-06-09 15:17:23] Raw response length: 341 characters
+[2025-06-09 15:17:23] Raw response preview (first 500 chars): {'Price usd': '100', 'Price usd casino': '80', 'Payment': '', 'Inform': "We accept Paid Guest Post's with a charge of $100 for Article Posting and $80 for Link Placement for Normal our Category Related Post's.", 'Comments': 'A single backlink from a high Domain Authority website is worth much more than thousands of low-quality backlinks.'}
+[2025-06-09 15:17:23] === PARSING FAILED ===
+[2025-06-09 15:17:23] No valid JSON objects found in response
+[2025-06-09 15:17:23] Text content was: {'Price usd': '100', 'Price usd casino': '80', 'Payment': '', 'Inform': "We accept Paid Guest Post's with a charge of $100 for Article Posting and $80 for Link Placement for Normal our Category Related Post's.", 'Comments': 'A single backlink from a high Domain Authority website is worth much more than thousands of low-quality backlinks.'}
+[2025-06-09 15:17:23] No valid data extracted, skipping update for editor@thecloudvibe.com
+[2025-06-09 15:17:23] === DEBUG EMAIL SEARCH for: editor@thecloudvibe.com ===
+[2025-06-09 15:17:23] Extracted emails: ['editor@thecloudvibe.com']
+[2025-06-09 15:17:23] Normalized email: editor@thecloudvibe.com
+[2025-06-09 15:17:23] Found in index at rows: [8861]
+[2025-06-09 15:17:23] Row 8861 original email: 'editor@thecloudvibe.com'
+[2025-06-09 15:17:23] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:17:51] === UPDATE ROWS STARTED for email: editor@thotscope.com ===
+[2025-06-09 15:17:51] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:17:51] Raw response type: <class 'dict'>
+[2025-06-09 15:17:51] Raw response length: 550 characters
+[2025-06-09 15:17:51] Raw response preview (first 500 chars): {'Price usd': '80', 'Price usd casino': '', 'Payment': '', 'Inform': 'lifestylebyps.com, thotscope.com', 'Comments': "My name is Mark, and I work with an SEO agency that helps clients improve their website visibility. We'd like to propose a mutually beneficial partnership for your site. We kindly ask you to clarify the following points: Is it possible to place such content on your platform? What would be the cost per article (regular or casino-themed)? Are gambling-related topics allowed? Do you
+[2025-06-09 15:17:51] === PARSING FAILED ===
+[2025-06-09 15:17:51] No valid JSON objects found in response
+[2025-06-09 15:17:51] Text content was: {'Price usd': '80', 'Price usd casino': '', 'Payment': '', 'Inform': 'lifestylebyps.com, thotscope.com', 'Comments': "My name is Mark, and I work with an SEO agency that helps clients improve their website visibility. We'd like to propose a mutually beneficial partnership for your site. We kindly ask you to clarify the following points: Is it possible to place such content on your platform? What would be the cost per article (regular or casino-themed)? Are gambling-related topics allowed? Do you have other websites where we could collaborate?"}
+[2025-06-09 15:17:51] No valid data extracted, skipping update for editor@thotscope.com
+[2025-06-09 15:17:51] === DEBUG EMAIL SEARCH for: editor@thotscope.com ===
+[2025-06-09 15:17:51] Extracted emails: ['editor@thotscope.com']
+[2025-06-09 15:17:51] Normalized email: editor@thotscope.com
+[2025-06-09 15:17:51] Found in index at rows: [8862]
+[2025-06-09 15:17:51] Row 8862 original email: 'editor@thotscope.com'
+[2025-06-09 15:17:51] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:18:16] === UPDATE ROWS STARTED for email: deepakoutreachy@gmail.com ===
+[2025-06-09 15:18:16] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:18:16] Raw response type: <class 'dict'>
+[2025-06-09 15:18:16] Raw response length: 122 characters
+[2025-06-09 15:18:16] Raw response preview (first 500 chars): {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 15:18:16] === PARSING FAILED ===
+[2025-06-09 15:18:16] No valid JSON objects found in response
+[2025-06-09 15:18:16] Text content was: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 15:18:16] No valid data extracted, skipping update for deepakoutreachy@gmail.com
+[2025-06-09 15:18:16] === DEBUG EMAIL SEARCH for: deepakoutreachy@gmail.com ===
+[2025-06-09 15:18:16] Extracted emails: ['deepakoutreachy@gmail.com']
+[2025-06-09 15:18:16] Normalized email: deepakoutreachy@gmail.com
+[2025-06-09 15:18:16] Found in index at rows: [8834]
+[2025-06-09 15:18:16] Row 8834 original email: 'deepakoutreachy@gmail.com'
+[2025-06-09 15:18:16] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:19:10] === UPDATE ROWS STARTED for email: info@ndwompafie.net ===
+[2025-06-09 15:19:10] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:19:10] Raw response type: <class 'dict'>
+[2025-06-09 15:19:10] Raw response length: 99 characters
+[2025-06-09 15:19:10] Raw response preview (first 500 chars): {'Price usd': '60', 'Price usd casino': '70', 'Payment': '', 'Inform': '', 'Comments': 'Yes - $70'}
+[2025-06-09 15:19:10] === PARSING FAILED ===
+[2025-06-09 15:19:10] No valid JSON objects found in response
+[2025-06-09 15:19:10] Text content was: {'Price usd': '60', 'Price usd casino': '70', 'Payment': '', 'Inform': '', 'Comments': 'Yes - $70'}
+[2025-06-09 15:19:11] No valid data extracted, skipping update for info@ndwompafie.net
+[2025-06-09 15:19:11] === DEBUG EMAIL SEARCH for: info@ndwompafie.net ===
+[2025-06-09 15:19:11] Extracted emails: ['info@ndwompafie.net']
+[2025-06-09 15:19:11] Normalized email: info@ndwompafie.net
+[2025-06-09 15:19:11] Found in index at rows: [8994]
+[2025-06-09 15:19:11] Row 8994 original email: 'info@ndwompafie.net'
+[2025-06-09 15:19:11] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:20:01] === UPDATE ROWS STARTED for email: elisaedwards30@gmail.com ===
+[2025-06-09 15:20:01] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:20:01] Raw response type: <class 'dict'>
+[2025-06-09 15:20:01] Raw response length: 496 characters
+[2025-06-09 15:20:01] Raw response preview (first 500 chars): {'Price usd': '20', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'We charge 20 USD extra for Crypto and Forex.', 'Comments': "Please share your article or link insertion details if you agree with the prices. Share your invoicing details at the time of sharing the article. Once the invoice is generated we won't be able to change invoicing details. Invoice must get paid within a week after the live link. In case of any negligence we will have to remove your links from the articles."}
+[2025-06-09 15:20:01] === PARSING FAILED ===
+[2025-06-09 15:20:01] No valid JSON objects found in response
+[2025-06-09 15:20:01] Text content was: {'Price usd': '20', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'We charge 20 USD extra for Crypto and Forex.', 'Comments': "Please share your article or link insertion details if you agree with the prices. Share your invoicing details at the time of sharing the article. Once the invoice is generated we won't be able to change invoicing details. Invoice must get paid within a week after the live link. In case of any negligence we will have to remove your links from the articles."}
+[2025-06-09 15:20:01] No valid data extracted, skipping update for elisaedwards30@gmail.com
+[2025-06-09 15:20:01] === DEBUG EMAIL SEARCH for: elisaedwards30@gmail.com ===
+[2025-06-09 15:20:01] Extracted emails: ['elisaedwards30@gmail.com']
+[2025-06-09 15:20:01] Normalized email: elisaedwards30@gmail.com
+[2025-06-09 15:20:01] Found in index at rows: [8868]
+[2025-06-09 15:20:01] Row 8868 original email: 'elisaedwards30@gmail.com'
+[2025-06-09 15:20:01] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:20:56] === UPDATE ROWS STARTED for email: info@plungedaily.com ===
+[2025-06-09 15:20:56] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:20:56] Raw response type: <class 'dict'>
+[2025-06-09 15:20:56] Raw response length: 221 characters
+[2025-06-09 15:20:56] Raw response preview (first 500 chars): {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal with 6% surcharge', 'Inform': "Need author's name, image, short profile; max 500-600 words", 'Comments': 'Higher fees for unaccepted subjects (500-600)'}
+[2025-06-09 15:20:56] === PARSING FAILED ===
+[2025-06-09 15:20:56] No valid JSON objects found in response
+[2025-06-09 15:20:56] Text content was: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal with 6% surcharge', 'Inform': "Need author's name, image, short profile; max 500-600 words", 'Comments': 'Higher fees for unaccepted subjects (500-600)'}
+[2025-06-09 15:20:56] No valid data extracted, skipping update for info@plungedaily.com
+[2025-06-09 15:20:56] === DEBUG EMAIL SEARCH for: info@plungedaily.com ===
+[2025-06-09 15:20:56] Extracted emails: ['info@plungedaily.com']
+[2025-06-09 15:20:56] Normalized email: info@plungedaily.com
+[2025-06-09 15:20:56] Found in index at rows: [9003]
+[2025-06-09 15:20:56] Row 9003 original email: 'info@plungedaily.com'
+[2025-06-09 15:20:56] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:21:34] === UPDATE ROWS STARTED for email: admin@corporatemarketingguide.com ===
+[2025-06-09 15:21:34] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:21:34] Raw response type: <class 'dict'>
+[2025-06-09 15:21:34] Raw response length: 197 characters
+[2025-06-09 15:21:34] Raw response preview (first 500 chars): {'Price usd': '100', 'Price usd casino': '250', 'Payment': 'Paypal', 'Inform': 'Link Insertion in an existing post:- $70', 'Comments': 'TAT of article publishing: 5 Hours, Word Count:- 700 to 800'}
+[2025-06-09 15:21:34] === PARSING FAILED ===
+[2025-06-09 15:21:34] No valid JSON objects found in response
+[2025-06-09 15:21:34] Text content was: {'Price usd': '100', 'Price usd casino': '250', 'Payment': 'Paypal', 'Inform': 'Link Insertion in an existing post:- $70', 'Comments': 'TAT of article publishing: 5 Hours, Word Count:- 700 to 800'}
+[2025-06-09 15:21:35] No valid data extracted, skipping update for admin@corporatemarketingguide.com
+[2025-06-09 15:21:35] === DEBUG EMAIL SEARCH for: admin@corporatemarketingguide.com ===
+[2025-06-09 15:21:35] Extracted emails: ['admin@corporatemarketingguide.com']
+[2025-06-09 15:21:35] Normalized email: admin@corporatemarketingguide.com
+[2025-06-09 15:21:35] Found in index at rows: [8660]
+[2025-06-09 15:21:35] Row 8660 original email: 'admin@corporatemarketingguide.com'
+[2025-06-09 15:21:35] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:22:58] === UPDATE ROWS STARTED for email: admin@linkingexpert.com ===
+[2025-06-09 15:22:58] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:22:58] Raw response type: <class 'dict'>
+[2025-06-09 15:22:58] Raw response length: 109 characters
+[2025-06-09 15:22:58] Raw response preview (first 500 chars): {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'PayPal or Binance', 'Inform': '', 'Comments': ''}
+[2025-06-09 15:22:58] === PARSING FAILED ===
+[2025-06-09 15:22:58] No valid JSON objects found in response
+[2025-06-09 15:22:58] Text content was: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'PayPal or Binance', 'Inform': '', 'Comments': ''}
+[2025-06-09 15:22:58] No valid data extracted, skipping update for admin@linkingexpert.com
+[2025-06-09 15:22:58] === DEBUG EMAIL SEARCH for: admin@linkingexpert.com ===
+[2025-06-09 15:22:58] Extracted emails: ['admin@linkingexpert.com']
+[2025-06-09 15:22:58] Normalized email: admin@linkingexpert.com
+[2025-06-09 15:22:58] Found in index at rows: [8668]
+[2025-06-09 15:22:58] Row 8668 original email: 'admin@linkingexpert.com'
+[2025-06-09 15:22:58] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:23:47] === UPDATE ROWS STARTED for email: info@suomitanaan.com ===
+[2025-06-09 15:23:47] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:23:47] Raw response type: <class 'dict'>
+[2025-06-09 15:23:47] Raw response length: 137 characters
+[2025-06-09 15:23:47] Raw response preview (first 500 chars): {'Price usd': '100', 'Price usd casino': '200', 'Payment': 'Bitcoin', 'Inform': 'Доставка по всему миру', 'Comments': 'Быстрая доставка'}
+[2025-06-09 15:23:47] === PARSING FAILED ===
+[2025-06-09 15:23:47] No valid JSON objects found in response
+[2025-06-09 15:23:47] Text content was: {'Price usd': '100', 'Price usd casino': '200', 'Payment': 'Bitcoin', 'Inform': 'Доставка по всему миру', 'Comments': 'Быстрая доставка'}
+[2025-06-09 15:23:47] No valid data extracted, skipping update for info@suomitanaan.com
+[2025-06-09 15:23:47] === DEBUG EMAIL SEARCH for: info@suomitanaan.com ===
+[2025-06-09 15:23:47] Extracted emails: ['info@suomitanaan.com']
+[2025-06-09 15:23:47] Normalized email: info@suomitanaan.com
+[2025-06-09 15:23:47] Found in index at rows: [9018, 10613]
+[2025-06-09 15:23:47] Row 9018 original email: 'info@suomitanaan.com'
+[2025-06-09 15:23:47] Row 10613 original email: 'info@suomitanaan.com'
+[2025-06-09 15:23:47] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:24:25] === UPDATE ROWS STARTED for email: admin@teamstore.cz ===
+[2025-06-09 15:24:25] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:24:25] Raw response type: <class 'dict'>
+[2025-06-09 15:24:25] Raw response length: 254 characters
+[2025-06-09 15:24:25] Raw response preview (first 500 chars): {'Price usd': '149', 'Price usd casino': '199', 'Payment': 'PayPal, Skrill, Bank transfer', 'Inform': 'I have over 300 sites. But I will share that list with you only after first paid order.', 'Comments': 'Do you have telegram for faster communication?'}
+[2025-06-09 15:24:25] === PARSING FAILED ===
+[2025-06-09 15:24:25] No valid JSON objects found in response
+[2025-06-09 15:24:25] Text content was: {'Price usd': '149', 'Price usd casino': '199', 'Payment': 'PayPal, Skrill, Bank transfer', 'Inform': 'I have over 300 sites. But I will share that list with you only after first paid order.', 'Comments': 'Do you have telegram for faster communication?'}
+[2025-06-09 15:24:25] No valid data extracted, skipping update for admin@teamstore.cz
+[2025-06-09 15:24:25] === DEBUG EMAIL SEARCH for: admin@teamstore.cz ===
+[2025-06-09 15:24:25] Extracted emails: ['admin@teamstore.cz']
+[2025-06-09 15:24:25] Normalized email: admin@teamstore.cz
+[2025-06-09 15:24:25] Found in index at rows: [8674]
+[2025-06-09 15:24:25] Row 8674 original email: 'admin@teamstore.cz'
+[2025-06-09 15:24:25] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:24:57] === UPDATE ROWS STARTED for email: info@techedubyte.com ===
+[2025-06-09 15:24:57] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:24:57] Raw response type: <class 'dict'>
+[2025-06-09 15:24:57] Raw response length: 394 characters
+[2025-06-09 15:24:57] Raw response preview (first 500 chars): {'Price usd': '100', 'Price usd casino': '130', 'Payment': 'Cryptocurrency (USDT TRC-20), Wise, ACH Bank Transfer, PayPal (Transfer Fee Applicable.)', 'Inform': 'Index within 10 minutes. 400K Monthly Visitors. 30K Telegram Subscribers. Lifetime Do-Follow Links.', 'Comments': 'Also have 6 more sites below with lower prices: General Articles - 60 USD, Casino, CBD & Gambling Content - 80 USD.'}
+[2025-06-09 15:24:57] === PARSING FAILED ===
+[2025-06-09 15:24:57] No valid JSON objects found in response
+[2025-06-09 15:24:57] Text content was: {'Price usd': '100', 'Price usd casino': '130', 'Payment': 'Cryptocurrency (USDT TRC-20), Wise, ACH Bank Transfer, PayPal (Transfer Fee Applicable.)', 'Inform': 'Index within 10 minutes. 400K Monthly Visitors. 30K Telegram Subscribers. Lifetime Do-Follow Links.', 'Comments': 'Also have 6 more sites below with lower prices: General Articles - 60 USD, Casino, CBD & Gambling Content - 80 USD.'}
+[2025-06-09 15:24:57] No valid data extracted, skipping update for info@techedubyte.com
+[2025-06-09 15:24:57] === DEBUG EMAIL SEARCH for: info@techedubyte.com ===
+[2025-06-09 15:24:57] Extracted emails: ['info@techedubyte.com']
+[2025-06-09 15:24:57] Normalized email: info@techedubyte.com
+[2025-06-09 15:24:57] Found in index at rows: [9022]
+[2025-06-09 15:24:57] Row 9022 original email: 'info@techedubyte.com'
+[2025-06-09 15:24:57] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:25:48] === UPDATE ROWS STARTED for email: gtvliveonline@gmail.com ===
+[2025-06-09 15:25:48] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:25:48] Raw response type: <class 'dict'>
+[2025-06-09 15:25:48] Raw response length: 232 characters
+[2025-06-09 15:25:48] Raw response preview (first 500 chars): {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'Payoneer, USDT', 'Inform': '', 'Comments': 'General posts are $150. Casino/betting/gambling posts are $300. Payment methods are Payoneer and USDT. PayPal is not accepted.'}
+[2025-06-09 15:25:48] === PARSING FAILED ===
+[2025-06-09 15:25:48] No valid JSON objects found in response
+[2025-06-09 15:25:48] Text content was: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'Payoneer, USDT', 'Inform': '', 'Comments': 'General posts are $150. Casino/betting/gambling posts are $300. Payment methods are Payoneer and USDT. PayPal is not accepted.'}
+[2025-06-09 15:25:48] No valid data extracted, skipping update for gtvliveonline@gmail.com
+[2025-06-09 15:25:48] === DEBUG EMAIL SEARCH for: gtvliveonline@gmail.com ===
+[2025-06-09 15:25:48] Extracted emails: ['gtvliveonline@gmail.com']
+[2025-06-09 15:25:48] Normalized email: gtvliveonline@gmail.com
+[2025-06-09 15:25:48] Found in index at rows: [8897]
+[2025-06-09 15:25:48] Row 8897 original email: 'gtvliveonline@gmail.com'
+[2025-06-09 15:25:48] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:28:07] === UPDATE ROWS STARTED for email: japanfortwoweb@gmail.com ===
+[2025-06-09 15:28:07] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:28:07] Raw response type: <class 'dict'>
+[2025-06-09 15:28:07] Raw response length: 204 characters
+[2025-06-09 15:28:07] Raw response preview (first 500 chars): {'Price usd': '230', 'Price usd casino': '', 'Payment': '', 'Inform': 'Casino/Gambling topics are not accepted.', 'Comments': 'Additional Turkish and US/Canada-based domains available for collaboration.'}
+[2025-06-09 15:28:07] === PARSING FAILED ===
+[2025-06-09 15:28:07] No valid JSON objects found in response
+[2025-06-09 15:28:07] Text content was: {'Price usd': '230', 'Price usd casino': '', 'Payment': '', 'Inform': 'Casino/Gambling topics are not accepted.', 'Comments': 'Additional Turkish and US/Canada-based domains available for collaboration.'}
+[2025-06-09 15:28:07] No valid data extracted, skipping update for japanfortwoweb@gmail.com
+[2025-06-09 15:28:07] === DEBUG EMAIL SEARCH for: japanfortwoweb@gmail.com ===
+[2025-06-09 15:28:07] Extracted emails: ['japanfortwoweb@gmail.com']
+[2025-06-09 15:28:07] Normalized email: japanfortwoweb@gmail.com
+[2025-06-09 15:28:07] Found in index at rows: [9041]
+[2025-06-09 15:28:07] Row 9041 original email: 'japanfortwoweb@gmail.com'
+[2025-06-09 15:28:07] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:28:41] === UPDATE ROWS STARTED for email: highlifengm@gmail.com ===
+[2025-06-09 15:28:41] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:28:41] Raw response type: <class 'dict'>
+[2025-06-09 15:28:41] Raw response length: 189 characters
+[2025-06-09 15:28:41] Raw response preview (first 500 chars): {'Price usd': '300', 'Price usd casino': '250', 'Payment': 'Usdt', 'Inform': 'All payments must be confirmed prior to publication, as we do not accommodate payment delays.', 'Comments': ''}
+[2025-06-09 15:28:41] === PARSING FAILED ===
+[2025-06-09 15:28:41] No valid JSON objects found in response
+[2025-06-09 15:28:41] Text content was: {'Price usd': '300', 'Price usd casino': '250', 'Payment': 'Usdt', 'Inform': 'All payments must be confirmed prior to publication, as we do not accommodate payment delays.', 'Comments': ''}
+[2025-06-09 15:28:41] No valid data extracted, skipping update for highlifengm@gmail.com
+[2025-06-09 15:28:41] === DEBUG EMAIL SEARCH for: highlifengm@gmail.com ===
+[2025-06-09 15:28:41] Extracted emails: ['highlifengm@gmail.com']
+[2025-06-09 15:28:41] Normalized email: highlifengm@gmail.com
+[2025-06-09 15:28:41] Found in index at rows: [8915]
+[2025-06-09 15:28:41] Row 8915 original email: 'Highlifengm@gmail.com'
+[2025-06-09 15:28:41] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:29:49] === UPDATE ROWS STARTED for email: blogstroveinfo@gmail.com ===
+[2025-06-09 15:29:49] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 15:29:49] Raw response type: <class 'dict'>
+[2025-06-09 15:29:49] Raw response length: 166 characters
+[2025-06-09 15:29:49] Raw response preview (first 500 chars): {'Price usd': '', 'Price usd casino': '', 'Payment': '', 'Inform': 'My website has over 80k monthly visitors mainly from the USA, the UK and Canada.', 'Comments': ''}
+[2025-06-09 15:29:49] === PARSING FAILED ===
+[2025-06-09 15:29:49] No valid JSON objects found in response
+[2025-06-09 15:29:49] Text content was: {'Price usd': '', 'Price usd casino': '', 'Payment': '', 'Inform': 'My website has over 80k monthly visitors mainly from the USA, the UK and Canada.', 'Comments': ''}
+[2025-06-09 15:29:49] No valid data extracted, skipping update for blogstroveinfo@gmail.com
+[2025-06-09 15:29:49] === DEBUG EMAIL SEARCH for: blogstroveinfo@gmail.com ===
+[2025-06-09 15:29:49] Extracted emails: ['blogstroveinfo@gmail.com']
+[2025-06-09 15:29:49] Normalized email: blogstroveinfo@gmail.com
+[2025-06-09 15:29:49] Found in index at rows: [8729]
+[2025-06-09 15:29:49] Row 8729 original email: 'blogstroveinfo@gmail.com'
+[2025-06-09 15:29:49] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 15:29:52] Backup Excel created: Mail_USD_backup_20250609_152952.xlsx
+[2025-06-09 18:11:46] Excel logger initialized
+[2025-06-09 18:11:46] ============================================================
+[2025-06-09 18:11:46] EXCEL PROCESSOR INITIALIZATION STARTED
+[2025-06-09 18:11:46] Excel file path: Mail_USD.xlsx
+[2025-06-09 18:11:46] Mail column: Mail
+[2025-06-09 18:11:46] Target columns: ['Price usd', 'Price usd casino', 'Payment', 'Inform', 'Comments']
+[2025-06-09 18:11:46] ========================================
+[2025-06-09 18:11:46] LOADING EXCEL DATA
+[2025-06-09 18:11:46] Excel file exists: Mail_USD.xlsx
+[2025-06-09 18:11:46] Excel loaded successfully: 11593 rows, 18 columns
+[2025-06-09 18:11:46] Columns: ['url', 'Статус', 'Price usd', 'Price usd casino', 'Mail', 'Payment', 'Date', 'Geo Ahrefs top 1', 'Language', 'DR', 'Organic Traffic', 'Backlinks', 'Organic Keywords', 'Majestic TF', 'Majestic CF', 'TF/CF', 'Inform', 'Comments']
+[2025-06-09 18:11:46] Excel structure validation passed
+[2025-06-09 18:11:46] ========================================
+[2025-06-09 18:11:46] CREATING EMAIL INDEX
+[2025-06-09 18:11:46] Row 0: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'info@webcamsdeasturias.com' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'info@webcamsdeasturias.com'
+[2025-06-09 18:11:46]   Extracted emails: ['info@webcamsdeasturias.com']
+[2025-06-09 18:11:46]   Normalized: 'info@webcamsdeasturias.com' -> 'info@webcamsdeasturias.com'
+[2025-06-09 18:11:46] Row 1: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'virgil.munteanu@evz.ro' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'virgil.munteanu@evz.ro'
+[2025-06-09 18:11:46]   Extracted emails: ['virgil.munteanu@evz.ro']
+[2025-06-09 18:11:46]   Normalized: 'virgil.munteanu@evz.ro' -> 'virgil.munteanu@evz.ro'
+[2025-06-09 18:11:46] Row 2: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'redaccion@panoramacultural.com.co' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'redaccion@panoramacultural.com.co'
+[2025-06-09 18:11:46]   Extracted emails: ['redaccion@panoramacultural.com.co']
+[2025-06-09 18:11:46]   Normalized: 'redaccion@panoramacultural.com.co' -> 'redaccion@panoramacultural.com.co'
+[2025-06-09 18:11:46] Row 3: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'info@worldonline.es' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'info@worldonline.es'
+[2025-06-09 18:11:46]   Extracted emails: ['info@worldonline.es']
+[2025-06-09 18:11:46]   Normalized: 'info@worldonline.es' -> 'info@worldonline.es'
+[2025-06-09 18:11:46] Row 4: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'info@worldonline.es' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'info@worldonline.es'
+[2025-06-09 18:11:46]   Extracted emails: ['info@worldonline.es']
+[2025-06-09 18:11:46]   Normalized: 'info@worldonline.es' -> 'info@worldonline.es'
+[2025-06-09 18:11:46] Row 5: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'info@worldonline.es' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'info@worldonline.es'
+[2025-06-09 18:11:46]   Extracted emails: ['info@worldonline.es']
+[2025-06-09 18:11:46]   Normalized: 'info@worldonline.es' -> 'info@worldonline.es'
+[2025-06-09 18:11:46] Row 6: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'info@worldonline.es' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'info@worldonline.es'
+[2025-06-09 18:11:46]   Extracted emails: ['info@worldonline.es']
+[2025-06-09 18:11:46]   Normalized: 'info@worldonline.es' -> 'info@worldonline.es'
+[2025-06-09 18:11:46] Row 7: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'webmaster@01webdirectory.com' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'webmaster@01webdirectory.com'
+[2025-06-09 18:11:46]   Extracted emails: ['webmaster@01webdirectory.com']
+[2025-06-09 18:11:46]   Normalized: 'webmaster@01webdirectory.com' -> 'webmaster@01webdirectory.com'
+[2025-06-09 18:11:46] Row 8: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'lourdsdiaz19.87@gmail.com' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'lourdsdiaz19.87@gmail.com'
+[2025-06-09 18:11:46]   Extracted emails: ['lourdsdiaz19.87@gmail.com']
+[2025-06-09 18:11:46]   Normalized: 'lourdsdiaz19.87@gmail.com' -> 'lourdsdiaz19.87@gmail.com'
+[2025-06-09 18:11:46] Row 9: Processing email cell
+[2025-06-09 18:11:46]   Raw value: 'concursos@frcu.utn.edu.ar' (type: <class 'str'>)
+[2025-06-09 18:11:46]   String value: 'concursos@frcu.utn.edu.ar'
+[2025-06-09 18:11:46]   Extracted emails: ['concursos@frcu.utn.edu.ar']
+[2025-06-09 18:11:46]   Normalized: 'concursos@frcu.utn.edu.ar' -> 'concursos@frcu.utn.edu.ar'
+[2025-06-09 18:11:47] EMAIL INDEX CREATION COMPLETED
+[2025-06-09 18:11:47] Total rows processed: 11593
+[2025-06-09 18:11:47] Empty email rows: 942
+[2025-06-09 18:11:47] Rows with emails: 10643
+[2025-06-09 18:11:47] Total emails found: 10844
+[2025-06-09 18:11:47] Unique normalized emails: 9291
+[2025-06-09 18:11:47] Sample emails in index: ['info@webcamsdeasturias.com', 'virgil.munteanu@evz.ro', 'redaccion@panoramacultural.com.co', 'info@worldonline.es', 'webmaster@01webdirectory.com', 'lourdsdiaz19.87@gmail.com', 'concursos@frcu.utn.edu.ar', '6707133@gmail.com', '1000tipsinformaticos@gmail.com', 'redacao@1001coisas.app.br', 'pedidos@100articulos.com.ar', 'paulabijari@gmail.com', 'hr@101blockchains.com', 'support@101greatgoals.com', 'editor@berabere.com', 'enquiries@11v11.com', 'feedback@123articleonline.com', 'contato@123noticias.com.br', 'dmandl@austriansoccerboard.com', 'radek@blackjack-winner.de']
+[2025-06-09 18:11:47] Rows per email - min: 1, max: 115, avg: 1.2
+[2025-06-09 18:14:00] ============================================================
+[2025-06-09 18:14:00] UPDATE ROWS STARTED for email: 'uaeplatform.net@gmail.com'
+[2025-06-09 18:14:00] Email type: <class 'str'>
+[2025-06-09 18:14:00] Raw response type: <class 'dict'>
+[2025-06-09 18:14:00] STEP 1: Parsing LM Studio response
+[2025-06-09 18:14:00] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:14:00] Raw response length: 226 characters
+[2025-06-09 18:14:00] Raw response preview: {'Price usd': '250', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link ...
+[2025-06-09 18:14:00] Extracted text content length: 226
+[2025-06-09 18:14:00] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:14:00] PARSING FAILED - no valid JSON found
+[2025-06-09 18:14:00] Text content was: {'Price usd': '250', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 18:14:00] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:14:00] === DEBUG EMAIL SEARCH for: uaeplatform.net@gmail.com ===
+[2025-06-09 18:14:00] Extracted emails: ['uaeplatform.net@gmail.com']
+[2025-06-09 18:14:00] Normalized email: uaeplatform.net@gmail.com
+[2025-06-09 18:14:00] Found in index at rows: [9306]
+[2025-06-09 18:14:00] Row 9306 original email: 'uaeplatform.net@gmail.com'
+[2025-06-09 18:14:00] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:14:24] ============================================================
+[2025-06-09 18:14:24] UPDATE ROWS STARTED for email: 'wikigulf@gmail.com'
+[2025-06-09 18:14:24] Email type: <class 'str'>
+[2025-06-09 18:14:24] Raw response type: <class 'dict'>
+[2025-06-09 18:14:24] STEP 1: Parsing LM Studio response
+[2025-06-09 18:14:24] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:14:24] Raw response length: 226 characters
+[2025-06-09 18:14:24] Raw response preview: {'Price usd': '200', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link ...
+[2025-06-09 18:14:24] Extracted text content length: 226
+[2025-06-09 18:14:24] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:14:24] PARSING FAILED - no valid JSON found
+[2025-06-09 18:14:24] Text content was: {'Price usd': '200', 'Price usd casino': '', 'Payment': 'PayPal, Payoneer', 'Inform': '3 Do-follow backlinks, No sponsored tags, Permanent placement', 'Comments': 'View full list of websites via link and contact via WhatsApp'}
+[2025-06-09 18:14:24] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:14:24] === DEBUG EMAIL SEARCH for: wikigulf@gmail.com ===
+[2025-06-09 18:14:24] Extracted emails: ['wikigulf@gmail.com']
+[2025-06-09 18:14:24] Normalized email: wikigulf@gmail.com
+[2025-06-09 18:14:24] Found in index at rows: [9336]
+[2025-06-09 18:14:24] Row 9336 original email: 'wikigulf@gmail.com'
+[2025-06-09 18:14:24] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:14:52] ============================================================
+[2025-06-09 18:14:52] UPDATE ROWS STARTED for email: 'zepredict@gmail.com'
+[2025-06-09 18:14:52] Email type: <class 'str'>
+[2025-06-09 18:14:52] Raw response type: <class 'dict'>
+[2025-06-09 18:14:52] STEP 1: Parsing LM Studio response
+[2025-06-09 18:14:52] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:14:52] Raw response length: 126 characters
+[2025-06-09 18:14:52] Raw response preview: {'Price usd': '50', 'Price usd casino': '', 'Payment': 'link', 'Inform': 'We accept such link on our website', 'Comments': ''}...
+[2025-06-09 18:14:52] Extracted text content length: 126
+[2025-06-09 18:14:52] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:14:52] PARSING FAILED - no valid JSON found
+[2025-06-09 18:14:52] Text content was: {'Price usd': '50', 'Price usd casino': '', 'Payment': 'link', 'Inform': 'We accept such link on our website', 'Comments': ''}
+[2025-06-09 18:14:52] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:14:52] === DEBUG EMAIL SEARCH for: zepredict@gmail.com ===
+[2025-06-09 18:14:52] Extracted emails: ['zepredict@gmail.com']
+[2025-06-09 18:14:52] Normalized email: zepredict@gmail.com
+[2025-06-09 18:14:52] Found in index at rows: [9349, 11588]
+[2025-06-09 18:14:52] Row 9349 original email: 'zepredict@gmail.com'
+[2025-06-09 18:14:52] Row 11588 original email: 'zepredict@gmail.com'
+[2025-06-09 18:14:52] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:18:42] ============================================================
+[2025-06-09 18:18:42] UPDATE ROWS STARTED for email: 'contact@techhbs.com'
+[2025-06-09 18:18:42] Email type: <class 'str'>
+[2025-06-09 18:18:42] Raw response type: <class 'dict'>
+[2025-06-09 18:18:42] STEP 1: Parsing LM Studio response
+[2025-06-09 18:18:42] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:18:42] Raw response length: 466 characters
+[2025-06-09 18:18:42] Raw response preview: {'Price usd': '300', 'Price usd casino': '500', 'Payment': 'paypal/bank transfer', 'Inform': 'advance payment required before publication, articles published instantly upon payment confirmation, artic...
+[2025-06-09 18:18:42] Extracted text content length: 466
+[2025-06-09 18:18:42] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:18:42] PARSING FAILED - no valid JSON found
+[2025-06-09 18:18:42] Text content was: {'Price usd': '300', 'Price usd casino': '500', 'Payment': 'paypal/bank transfer', 'Inform': 'advance payment required before publication, articles published instantly upon payment confirmation, articles live permanently, indexed within 20 minutes, title shown on google in 2-6 hours', 'Comments': 'accepts casino links in pure tech articles, homepage banner backlink for $4000/year, only one do-follow link allowed per article, no sponsored tags in guest articles'}
+[2025-06-09 18:18:42] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:18:42] === DEBUG EMAIL SEARCH for: contact@techhbs.com ===
+[2025-06-09 18:18:42] Extracted emails: ['contact@techhbs.com']
+[2025-06-09 18:18:42] Normalized email: contact@techhbs.com
+[2025-06-09 18:18:42] Found in index at rows: [8800]
+[2025-06-09 18:18:42] Row 8800 original email: 'contact@techhbs.com'
+[2025-06-09 18:18:42] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:19:13] ============================================================
+[2025-06-09 18:19:13] UPDATE ROWS STARTED for email: 'contact@urdufeed.org'
+[2025-06-09 18:19:13] Email type: <class 'str'>
+[2025-06-09 18:19:13] Raw response type: <class 'dict'>
+[2025-06-09 18:19:13] STEP 1: Parsing LM Studio response
+[2025-06-09 18:19:13] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:19:13] Raw response length: 122 characters
+[2025-06-09 18:19:13] Raw response preview: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}...
+[2025-06-09 18:19:13] Extracted text content length: 122
+[2025-06-09 18:19:13] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:19:13] PARSING FAILED - no valid JSON found
+[2025-06-09 18:19:13] Text content was: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 18:19:13] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:19:13] === DEBUG EMAIL SEARCH for: contact@urdufeed.org ===
+[2025-06-09 18:19:13] Extracted emails: ['contact@urdufeed.org']
+[2025-06-09 18:19:13] Normalized email: contact@urdufeed.org
+[2025-06-09 18:19:13] Found in index at rows: [8805, 9795]
+[2025-06-09 18:19:13] Row 8805 original email: 'contact@urdufeed.org'
+[2025-06-09 18:19:13] Row 9795 original email: 'contact@urdufeed.org'
+[2025-06-09 18:19:13] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:21:49] ============================================================
+[2025-06-09 18:21:49] UPDATE ROWS STARTED for email: 'covertvoice.official@gmail.com'
+[2025-06-09 18:21:49] Email type: <class 'str'>
+[2025-06-09 18:21:49] Raw response type: <class 'dict'>
+[2025-06-09 18:21:49] STEP 1: Parsing LM Studio response
+[2025-06-09 18:21:49] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:21:49] Raw response length: 330 characters
+[2025-06-09 18:21:49] Raw response preview: {'Price usd': '200', 'Price usd casino': '', 'Payment': '', 'Inform': 'liistudio.com, covertvoice.com, thetechvine.com, thegeekinsights.com', 'Comments': "We are accepting guest posts related to tech,...
+[2025-06-09 18:21:49] Extracted text content length: 330
+[2025-06-09 18:21:49] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:21:49] PARSING FAILED - no valid JSON found
+[2025-06-09 18:21:49] Text content was: {'Price usd': '200', 'Price usd casino': '', 'Payment': '', 'Inform': 'liistudio.com, covertvoice.com, thetechvine.com, thegeekinsights.com', 'Comments': "We are accepting guest posts related to tech, business, marketing etc. relevant to each website. Note: We don't accept links like Casino, CBD, betting, gambling, dating etc."}
+[2025-06-09 18:21:49] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:21:49] === DEBUG EMAIL SEARCH for: covertvoice.official@gmail.com ===
+[2025-06-09 18:21:49] Extracted emails: ['covertvoice.official@gmail.com']
+[2025-06-09 18:21:49] Normalized email: covertvoice.official@gmail.com
+[2025-06-09 18:21:49] Found in index at rows: [8822, 9846]
+[2025-06-09 18:21:49] Row 8822 original email: 'covertvoice.official@gmail.com'
+[2025-06-09 18:21:49] Row 9846 original email: 'covertvoice.official@gmail.com'
+[2025-06-09 18:21:49] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:23:18] ============================================================
+[2025-06-09 18:23:18] UPDATE ROWS STARTED for email: 'editor@plungedaily.com'
+[2025-06-09 18:23:18] Email type: <class 'str'>
+[2025-06-09 18:23:18] Raw response type: <class 'dict'>
+[2025-06-09 18:23:18] STEP 1: Parsing LM Studio response
+[2025-06-09 18:23:18] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:23:18] Raw response length: 228 characters
+[2025-06-09 18:23:18] Raw response preview: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': "Need author's name, image, short profile; max 500-600 words; 6% PayPal Surcharge; higher fees for unaccepted subjects (...
+[2025-06-09 18:23:18] Extracted text content length: 228
+[2025-06-09 18:23:18] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:23:18] PARSING FAILED - no valid JSON found
+[2025-06-09 18:23:18] Text content was: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': "Need author's name, image, short profile; max 500-600 words; 6% PayPal Surcharge; higher fees for unaccepted subjects ($500-$600)", 'Comments': ''}
+[2025-06-09 18:23:18] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:23:18] === DEBUG EMAIL SEARCH for: editor@plungedaily.com ===
+[2025-06-09 18:23:18] Extracted emails: ['editor@plungedaily.com']
+[2025-06-09 18:23:18] Normalized email: editor@plungedaily.com
+[2025-06-09 18:23:18] Found in index at rows: [8860]
+[2025-06-09 18:23:18] Row 8860 original email: 'editor@plungedaily.com'
+[2025-06-09 18:23:18] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:23:48] ============================================================
+[2025-06-09 18:23:48] UPDATE ROWS STARTED for email: 'editor@thecloudvibe.com'
+[2025-06-09 18:23:48] Email type: <class 'str'>
+[2025-06-09 18:23:48] Raw response type: <class 'dict'>
+[2025-06-09 18:23:48] STEP 1: Parsing LM Studio response
+[2025-06-09 18:23:48] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:23:48] Raw response length: 341 characters
+[2025-06-09 18:23:48] Raw response preview: {'Price usd': '100', 'Price usd casino': '80', 'Payment': '', 'Inform': "We accept Paid Guest Post's with a charge of $100 for Article Posting and $80 for Link Placement for Normal our Category Relate...
+[2025-06-09 18:23:48] Extracted text content length: 341
+[2025-06-09 18:23:48] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:23:48] PARSING FAILED - no valid JSON found
+[2025-06-09 18:23:48] Text content was: {'Price usd': '100', 'Price usd casino': '80', 'Payment': '', 'Inform': "We accept Paid Guest Post's with a charge of $100 for Article Posting and $80 for Link Placement for Normal our Category Related Post's.", 'Comments': 'A single backlink from a high Domain Authority website is worth much more than thousands of low-quality backlinks.'}
+[2025-06-09 18:23:48] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:23:48] === DEBUG EMAIL SEARCH for: editor@thecloudvibe.com ===
+[2025-06-09 18:23:48] Extracted emails: ['editor@thecloudvibe.com']
+[2025-06-09 18:23:48] Normalized email: editor@thecloudvibe.com
+[2025-06-09 18:23:48] Found in index at rows: [8861]
+[2025-06-09 18:23:48] Row 8861 original email: 'editor@thecloudvibe.com'
+[2025-06-09 18:23:48] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:24:28] ============================================================
+[2025-06-09 18:24:28] UPDATE ROWS STARTED for email: 'editor@thotscope.com'
+[2025-06-09 18:24:28] Email type: <class 'str'>
+[2025-06-09 18:24:28] Raw response type: <class 'dict'>
+[2025-06-09 18:24:28] STEP 1: Parsing LM Studio response
+[2025-06-09 18:24:28] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:24:28] Raw response length: 550 characters
+[2025-06-09 18:24:28] Raw response preview: {'Price usd': '80', 'Price usd casino': '', 'Payment': '', 'Inform': 'lifestylebyps.com, thotscope.com', 'Comments': "My name is Mark, and I work with an SEO agency that helps clients improve their we...
+[2025-06-09 18:24:28] Extracted text content length: 550
+[2025-06-09 18:24:28] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:24:28] PARSING FAILED - no valid JSON found
+[2025-06-09 18:24:28] Text content was: {'Price usd': '80', 'Price usd casino': '', 'Payment': '', 'Inform': 'lifestylebyps.com, thotscope.com', 'Comments': "My name is Mark, and I work with an SEO agency that helps clients improve their website visibility. We'd like to propose a mutually beneficial partnership for your site. We kindly ask you to clarify the following points: Is it possible to place such content on your platform? What would be the cost per article (regular or casino-themed)? Are gambling-related topics allowed? Do you have other websites where we could collaborate?"}
+[2025-06-09 18:24:28] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:24:28] === DEBUG EMAIL SEARCH for: editor@thotscope.com ===
+[2025-06-09 18:24:28] Extracted emails: ['editor@thotscope.com']
+[2025-06-09 18:24:28] Normalized email: editor@thotscope.com
+[2025-06-09 18:24:28] Found in index at rows: [8862]
+[2025-06-09 18:24:28] Row 8862 original email: 'editor@thotscope.com'
+[2025-06-09 18:24:28] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:24:55] ============================================================
+[2025-06-09 18:24:55] UPDATE ROWS STARTED for email: 'deepakoutreachy@gmail.com'
+[2025-06-09 18:24:55] Email type: <class 'str'>
+[2025-06-09 18:24:55] Raw response type: <class 'dict'>
+[2025-06-09 18:24:55] STEP 1: Parsing LM Studio response
+[2025-06-09 18:24:55] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:24:55] Raw response length: 122 characters
+[2025-06-09 18:24:55] Raw response preview: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}...
+[2025-06-09 18:24:55] Extracted text content length: 122
+[2025-06-09 18:24:55] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:24:55] PARSING FAILED - no valid JSON found
+[2025-06-09 18:24:55] Text content was: {'Price usd': '300', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'Please provide your budget.', 'Comments': ''}
+[2025-06-09 18:24:55] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:24:55] === DEBUG EMAIL SEARCH for: deepakoutreachy@gmail.com ===
+[2025-06-09 18:24:55] Extracted emails: ['deepakoutreachy@gmail.com']
+[2025-06-09 18:24:55] Normalized email: deepakoutreachy@gmail.com
+[2025-06-09 18:24:55] Found in index at rows: [8834]
+[2025-06-09 18:24:55] Row 8834 original email: 'deepakoutreachy@gmail.com'
+[2025-06-09 18:24:55] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:25:47] ============================================================
+[2025-06-09 18:25:47] UPDATE ROWS STARTED for email: 'info@ndwompafie.net'
+[2025-06-09 18:25:47] Email type: <class 'str'>
+[2025-06-09 18:25:47] Raw response type: <class 'dict'>
+[2025-06-09 18:25:47] STEP 1: Parsing LM Studio response
+[2025-06-09 18:25:47] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:25:47] Raw response length: 99 characters
+[2025-06-09 18:25:47] Raw response preview: {'Price usd': '60', 'Price usd casino': '70', 'Payment': '', 'Inform': '', 'Comments': 'Yes - $70'}...
+[2025-06-09 18:25:47] Extracted text content length: 99
+[2025-06-09 18:25:47] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:25:47] PARSING FAILED - no valid JSON found
+[2025-06-09 18:25:47] Text content was: {'Price usd': '60', 'Price usd casino': '70', 'Payment': '', 'Inform': '', 'Comments': 'Yes - $70'}
+[2025-06-09 18:25:47] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:25:47] === DEBUG EMAIL SEARCH for: info@ndwompafie.net ===
+[2025-06-09 18:25:47] Extracted emails: ['info@ndwompafie.net']
+[2025-06-09 18:25:47] Normalized email: info@ndwompafie.net
+[2025-06-09 18:25:47] Found in index at rows: [8994]
+[2025-06-09 18:25:47] Row 8994 original email: 'info@ndwompafie.net'
+[2025-06-09 18:25:47] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:26:37] ============================================================
+[2025-06-09 18:26:37] UPDATE ROWS STARTED for email: 'elisaedwards30@gmail.com'
+[2025-06-09 18:26:37] Email type: <class 'str'>
+[2025-06-09 18:26:37] Raw response type: <class 'dict'>
+[2025-06-09 18:26:37] STEP 1: Parsing LM Studio response
+[2025-06-09 18:26:37] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:26:37] Raw response length: 496 characters
+[2025-06-09 18:26:37] Raw response preview: {'Price usd': '20', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'We charge 20 USD extra for Crypto and Forex.', 'Comments': "Please share your article or link insertion details if you agree...
+[2025-06-09 18:26:37] Extracted text content length: 496
+[2025-06-09 18:26:37] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:26:37] PARSING FAILED - no valid JSON found
+[2025-06-09 18:26:37] Text content was: {'Price usd': '20', 'Price usd casino': '', 'Payment': 'PayPal', 'Inform': 'We charge 20 USD extra for Crypto and Forex.', 'Comments': "Please share your article or link insertion details if you agree with the prices. Share your invoicing details at the time of sharing the article. Once the invoice is generated we won't be able to change invoicing details. Invoice must get paid within a week after the live link. In case of any negligence we will have to remove your links from the articles."}
+[2025-06-09 18:26:37] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:26:37] === DEBUG EMAIL SEARCH for: elisaedwards30@gmail.com ===
+[2025-06-09 18:26:37] Extracted emails: ['elisaedwards30@gmail.com']
+[2025-06-09 18:26:37] Normalized email: elisaedwards30@gmail.com
+[2025-06-09 18:26:37] Found in index at rows: [8868]
+[2025-06-09 18:26:37] Row 8868 original email: 'elisaedwards30@gmail.com'
+[2025-06-09 18:26:37] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:27:30] ============================================================
+[2025-06-09 18:27:30] UPDATE ROWS STARTED for email: 'info@plungedaily.com'
+[2025-06-09 18:27:30] Email type: <class 'str'>
+[2025-06-09 18:27:30] Raw response type: <class 'dict'>
+[2025-06-09 18:27:30] STEP 1: Parsing LM Studio response
+[2025-06-09 18:27:30] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:27:30] Raw response length: 221 characters
+[2025-06-09 18:27:30] Raw response preview: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal with 6% surcharge', 'Inform': "Need author's name, image, short profile; max 500-600 words", 'Comments': 'Higher fees for unaccepted...
+[2025-06-09 18:27:30] Extracted text content length: 221
+[2025-06-09 18:27:30] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:27:30] PARSING FAILED - no valid JSON found
+[2025-06-09 18:27:30] Text content was: {'Price usd': '250-300', 'Price usd casino': '', 'Payment': 'PayPal with 6% surcharge', 'Inform': "Need author's name, image, short profile; max 500-600 words", 'Comments': 'Higher fees for unaccepted subjects (500-600)'}
+[2025-06-09 18:27:30] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:27:30] === DEBUG EMAIL SEARCH for: info@plungedaily.com ===
+[2025-06-09 18:27:30] Extracted emails: ['info@plungedaily.com']
+[2025-06-09 18:27:30] Normalized email: info@plungedaily.com
+[2025-06-09 18:27:30] Found in index at rows: [9003]
+[2025-06-09 18:27:30] Row 9003 original email: 'info@plungedaily.com'
+[2025-06-09 18:27:30] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:28:17] ============================================================
+[2025-06-09 18:28:17] UPDATE ROWS STARTED for email: 'admin@corporatemarketingguide.com'
+[2025-06-09 18:28:17] Email type: <class 'str'>
+[2025-06-09 18:28:17] Raw response type: <class 'dict'>
+[2025-06-09 18:28:17] STEP 1: Parsing LM Studio response
+[2025-06-09 18:28:17] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:28:17] Raw response length: 197 characters
+[2025-06-09 18:28:17] Raw response preview: {'Price usd': '100', 'Price usd casino': '250', 'Payment': 'Paypal', 'Inform': 'Link Insertion in an existing post:- $70', 'Comments': 'TAT of article publishing: 5 Hours, Word Count:- 700 to 800'}...
+[2025-06-09 18:28:17] Extracted text content length: 197
+[2025-06-09 18:28:17] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:28:17] PARSING FAILED - no valid JSON found
+[2025-06-09 18:28:17] Text content was: {'Price usd': '100', 'Price usd casino': '250', 'Payment': 'Paypal', 'Inform': 'Link Insertion in an existing post:- $70', 'Comments': 'TAT of article publishing: 5 Hours, Word Count:- 700 to 800'}
+[2025-06-09 18:28:17] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:28:17] === DEBUG EMAIL SEARCH for: admin@corporatemarketingguide.com ===
+[2025-06-09 18:28:17] Extracted emails: ['admin@corporatemarketingguide.com']
+[2025-06-09 18:28:17] Normalized email: admin@corporatemarketingguide.com
+[2025-06-09 18:28:17] Found in index at rows: [8660]
+[2025-06-09 18:28:17] Row 8660 original email: 'admin@corporatemarketingguide.com'
+[2025-06-09 18:28:17] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:29:41] ============================================================
+[2025-06-09 18:29:41] UPDATE ROWS STARTED for email: 'admin@linkingexpert.com'
+[2025-06-09 18:29:41] Email type: <class 'str'>
+[2025-06-09 18:29:41] Raw response type: <class 'dict'>
+[2025-06-09 18:29:41] STEP 1: Parsing LM Studio response
+[2025-06-09 18:29:41] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:29:41] Raw response length: 109 characters
+[2025-06-09 18:29:41] Raw response preview: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'PayPal or Binance', 'Inform': '', 'Comments': ''}...
+[2025-06-09 18:29:41] Extracted text content length: 109
+[2025-06-09 18:29:41] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:29:41] PARSING FAILED - no valid JSON found
+[2025-06-09 18:29:41] Text content was: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'PayPal or Binance', 'Inform': '', 'Comments': ''}
+[2025-06-09 18:29:41] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:29:41] === DEBUG EMAIL SEARCH for: admin@linkingexpert.com ===
+[2025-06-09 18:29:41] Extracted emails: ['admin@linkingexpert.com']
+[2025-06-09 18:29:41] Normalized email: admin@linkingexpert.com
+[2025-06-09 18:29:41] Found in index at rows: [8668]
+[2025-06-09 18:29:41] Row 8668 original email: 'admin@linkingexpert.com'
+[2025-06-09 18:29:41] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:30:33] ============================================================
+[2025-06-09 18:30:33] UPDATE ROWS STARTED for email: 'info@suomitanaan.com'
+[2025-06-09 18:30:33] Email type: <class 'str'>
+[2025-06-09 18:30:33] Raw response type: <class 'dict'>
+[2025-06-09 18:30:33] STEP 1: Parsing LM Studio response
+[2025-06-09 18:30:33] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:30:33] Raw response length: 137 characters
+[2025-06-09 18:30:33] Raw response preview: {'Price usd': '100', 'Price usd casino': '200', 'Payment': 'Bitcoin', 'Inform': 'Доставка по всему миру', 'Comments': 'Быстрая доставка'}...
+[2025-06-09 18:30:33] Extracted text content length: 137
+[2025-06-09 18:30:33] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:30:33] PARSING FAILED - no valid JSON found
+[2025-06-09 18:30:33] Text content was: {'Price usd': '100', 'Price usd casino': '200', 'Payment': 'Bitcoin', 'Inform': 'Доставка по всему миру', 'Comments': 'Быстрая доставка'}
+[2025-06-09 18:30:33] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:30:33] === DEBUG EMAIL SEARCH for: info@suomitanaan.com ===
+[2025-06-09 18:30:33] Extracted emails: ['info@suomitanaan.com']
+[2025-06-09 18:30:33] Normalized email: info@suomitanaan.com
+[2025-06-09 18:30:33] Found in index at rows: [9018, 10613]
+[2025-06-09 18:30:33] Row 9018 original email: 'info@suomitanaan.com'
+[2025-06-09 18:30:33] Row 10613 original email: 'info@suomitanaan.com'
+[2025-06-09 18:30:33] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:31:19] ============================================================
+[2025-06-09 18:31:19] UPDATE ROWS STARTED for email: 'admin@teamstore.cz'
+[2025-06-09 18:31:19] Email type: <class 'str'>
+[2025-06-09 18:31:19] Raw response type: <class 'dict'>
+[2025-06-09 18:31:19] STEP 1: Parsing LM Studio response
+[2025-06-09 18:31:19] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:31:19] Raw response length: 254 characters
+[2025-06-09 18:31:19] Raw response preview: {'Price usd': '149', 'Price usd casino': '199', 'Payment': 'PayPal, Skrill, Bank transfer', 'Inform': 'I have over 300 sites. But I will share that list with you only after first paid order.', 'Commen...
+[2025-06-09 18:31:19] Extracted text content length: 254
+[2025-06-09 18:31:19] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:31:19] PARSING FAILED - no valid JSON found
+[2025-06-09 18:31:19] Text content was: {'Price usd': '149', 'Price usd casino': '199', 'Payment': 'PayPal, Skrill, Bank transfer', 'Inform': 'I have over 300 sites. But I will share that list with you only after first paid order.', 'Comments': 'Do you have telegram for faster communication?'}
+[2025-06-09 18:31:19] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:31:19] === DEBUG EMAIL SEARCH for: admin@teamstore.cz ===
+[2025-06-09 18:31:19] Extracted emails: ['admin@teamstore.cz']
+[2025-06-09 18:31:19] Normalized email: admin@teamstore.cz
+[2025-06-09 18:31:19] Found in index at rows: [8674]
+[2025-06-09 18:31:19] Row 8674 original email: 'admin@teamstore.cz'
+[2025-06-09 18:31:19] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:31:49] ============================================================
+[2025-06-09 18:31:49] UPDATE ROWS STARTED for email: 'info@techedubyte.com'
+[2025-06-09 18:31:49] Email type: <class 'str'>
+[2025-06-09 18:31:49] Raw response type: <class 'dict'>
+[2025-06-09 18:31:49] STEP 1: Parsing LM Studio response
+[2025-06-09 18:31:49] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:31:49] Raw response length: 394 characters
+[2025-06-09 18:31:49] Raw response preview: {'Price usd': '100', 'Price usd casino': '130', 'Payment': 'Cryptocurrency (USDT TRC-20), Wise, ACH Bank Transfer, PayPal (Transfer Fee Applicable.)', 'Inform': 'Index within 10 minutes. 400K Monthly ...
+[2025-06-09 18:31:49] Extracted text content length: 394
+[2025-06-09 18:31:49] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:31:49] PARSING FAILED - no valid JSON found
+[2025-06-09 18:31:49] Text content was: {'Price usd': '100', 'Price usd casino': '130', 'Payment': 'Cryptocurrency (USDT TRC-20), Wise, ACH Bank Transfer, PayPal (Transfer Fee Applicable.)', 'Inform': 'Index within 10 minutes. 400K Monthly Visitors. 30K Telegram Subscribers. Lifetime Do-Follow Links.', 'Comments': 'Also have 6 more sites below with lower prices: General Articles - 60 USD, Casino, CBD & Gambling Content - 80 USD.'}
+[2025-06-09 18:31:49] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:31:49] === DEBUG EMAIL SEARCH for: info@techedubyte.com ===
+[2025-06-09 18:31:49] Extracted emails: ['info@techedubyte.com']
+[2025-06-09 18:31:49] Normalized email: info@techedubyte.com
+[2025-06-09 18:31:49] Found in index at rows: [9022]
+[2025-06-09 18:31:49] Row 9022 original email: 'info@techedubyte.com'
+[2025-06-09 18:31:49] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:32:40] ============================================================
+[2025-06-09 18:32:40] UPDATE ROWS STARTED for email: 'gtvliveonline@gmail.com'
+[2025-06-09 18:32:40] Email type: <class 'str'>
+[2025-06-09 18:32:40] Raw response type: <class 'dict'>
+[2025-06-09 18:32:40] STEP 1: Parsing LM Studio response
+[2025-06-09 18:32:40] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:32:40] Raw response length: 232 characters
+[2025-06-09 18:32:40] Raw response preview: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'Payoneer, USDT', 'Inform': '', 'Comments': 'General posts are $150. Casino/betting/gambling posts are $300. Payment methods are Payoneer and...
+[2025-06-09 18:32:40] Extracted text content length: 232
+[2025-06-09 18:32:40] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:32:40] PARSING FAILED - no valid JSON found
+[2025-06-09 18:32:40] Text content was: {'Price usd': '150', 'Price usd casino': '300', 'Payment': 'Payoneer, USDT', 'Inform': '', 'Comments': 'General posts are $150. Casino/betting/gambling posts are $300. Payment methods are Payoneer and USDT. PayPal is not accepted.'}
+[2025-06-09 18:32:40] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:32:40] === DEBUG EMAIL SEARCH for: gtvliveonline@gmail.com ===
+[2025-06-09 18:32:40] Extracted emails: ['gtvliveonline@gmail.com']
+[2025-06-09 18:32:40] Normalized email: gtvliveonline@gmail.com
+[2025-06-09 18:32:40] Found in index at rows: [8897]
+[2025-06-09 18:32:40] Row 8897 original email: 'gtvliveonline@gmail.com'
+[2025-06-09 18:32:40] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:35:06] ============================================================
+[2025-06-09 18:35:06] UPDATE ROWS STARTED for email: 'japanfortwoweb@gmail.com'
+[2025-06-09 18:35:06] Email type: <class 'str'>
+[2025-06-09 18:35:06] Raw response type: <class 'dict'>
+[2025-06-09 18:35:06] STEP 1: Parsing LM Studio response
+[2025-06-09 18:35:06] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:35:06] Raw response length: 204 characters
+[2025-06-09 18:35:06] Raw response preview: {'Price usd': '230', 'Price usd casino': '', 'Payment': '', 'Inform': 'Casino/Gambling topics are not accepted.', 'Comments': 'Additional Turkish and US/Canada-based domains available for collaboratio...
+[2025-06-09 18:35:06] Extracted text content length: 204
+[2025-06-09 18:35:06] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:35:06] PARSING FAILED - no valid JSON found
+[2025-06-09 18:35:06] Text content was: {'Price usd': '230', 'Price usd casino': '', 'Payment': '', 'Inform': 'Casino/Gambling topics are not accepted.', 'Comments': 'Additional Turkish and US/Canada-based domains available for collaboration.'}
+[2025-06-09 18:35:06] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:35:06] === DEBUG EMAIL SEARCH for: japanfortwoweb@gmail.com ===
+[2025-06-09 18:35:06] Extracted emails: ['japanfortwoweb@gmail.com']
+[2025-06-09 18:35:06] Normalized email: japanfortwoweb@gmail.com
+[2025-06-09 18:35:06] Found in index at rows: [9041]
+[2025-06-09 18:35:06] Row 9041 original email: 'japanfortwoweb@gmail.com'
+[2025-06-09 18:35:06] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:35:41] ============================================================
+[2025-06-09 18:35:41] UPDATE ROWS STARTED for email: 'highlifengm@gmail.com'
+[2025-06-09 18:35:41] Email type: <class 'str'>
+[2025-06-09 18:35:41] Raw response type: <class 'dict'>
+[2025-06-09 18:35:41] STEP 1: Parsing LM Studio response
+[2025-06-09 18:35:41] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:35:41] Raw response length: 189 characters
+[2025-06-09 18:35:41] Raw response preview: {'Price usd': '300', 'Price usd casino': '250', 'Payment': 'Usdt', 'Inform': 'All payments must be confirmed prior to publication, as we do not accommodate payment delays.', 'Comments': ''}...
+[2025-06-09 18:35:41] Extracted text content length: 189
+[2025-06-09 18:35:41] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:35:41] PARSING FAILED - no valid JSON found
+[2025-06-09 18:35:41] Text content was: {'Price usd': '300', 'Price usd casino': '250', 'Payment': 'Usdt', 'Inform': 'All payments must be confirmed prior to publication, as we do not accommodate payment delays.', 'Comments': ''}
+[2025-06-09 18:35:41] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:35:41] === DEBUG EMAIL SEARCH for: highlifengm@gmail.com ===
+[2025-06-09 18:35:41] Extracted emails: ['highlifengm@gmail.com']
+[2025-06-09 18:35:41] Normalized email: highlifengm@gmail.com
+[2025-06-09 18:35:41] Found in index at rows: [8915]
+[2025-06-09 18:35:41] Row 8915 original email: 'Highlifengm@gmail.com'
+[2025-06-09 18:35:41] === END DEBUG EMAIL SEARCH ===
+[2025-06-09 18:36:45] ============================================================
+[2025-06-09 18:36:45] UPDATE ROWS STARTED for email: 'blogstroveinfo@gmail.com'
+[2025-06-09 18:36:45] Email type: <class 'str'>
+[2025-06-09 18:36:45] Raw response type: <class 'dict'>
+[2025-06-09 18:36:45] STEP 1: Parsing LM Studio response
+[2025-06-09 18:36:45] === PARSING LM STUDIO RESPONSE ===
+[2025-06-09 18:36:45] Raw response length: 166 characters
+[2025-06-09 18:36:45] Raw response preview: {'Price usd': '', 'Price usd casino': '', 'Payment': '', 'Inform': 'My website has over 80k monthly visitors mainly from the USA, the UK and Canada.', 'Comments': ''}...
+[2025-06-09 18:36:45] Extracted text content length: 166
+[2025-06-09 18:36:45] Failed to parse line-by-line JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2025-06-09 18:36:45] PARSING FAILED - no valid JSON found
+[2025-06-09 18:36:45] Text content was: {'Price usd': '', 'Price usd casino': '', 'Payment': '', 'Inform': 'My website has over 80k monthly visitors mainly from the USA, the UK and Canada.', 'Comments': ''}
+[2025-06-09 18:36:45] STEP 1 FAILED: No valid data extracted from LM Studio response
+[2025-06-09 18:36:45] === DEBUG EMAIL SEARCH for: blogstroveinfo@gmail.com ===
+[2025-06-09 18:36:45] Extracted emails: ['blogstroveinfo@gmail.com']
+[2025-06-09 18:36:45] Normalized email: blogstroveinfo@gmail.com
+[2025-06-09 18:36:45] Found in index at rows: [8729]
+[2025-06-09 18:36:45] Row 8729 original email: 'blogstroveinfo@gmail.com'
+[2025-06-09 18:36:45] === END DEBUG EMAIL SEARCH ===

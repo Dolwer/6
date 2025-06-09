@@ -2797,3 +2797,243 @@
 [2025-06-08 14:04:14] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 2, 'excel': 0}
 [2025-06-08 14:04:14] [INFO] [EmailBot] Bad processing count: 2
 [2025-06-08 14:04:14] [INFO] [EmailBot] Elapsed time: 1372.38 seconds
+[2025-06-09 15:09:16] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-09 15:09:18] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-09 15:09:19] [INFO] [EmailBot] Excel email index created. Unique emails: 9291
+[2025-06-09 15:09:20] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 11593
+[2025-06-09 15:09:31] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-09 15:09:31] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-09 15:09:31] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-09 15:09:31] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-09 15:09:33] [WARNING] [EmailBot] IMAP connection lost during fetch (command: FETCH => socket error: EOF). Reconnecting (try 1)...
+[2025-06-09 15:09:35] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-09 15:09:35] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-09 15:09:35] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-09 15:10:20] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-09 15:10:24] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-09 15:10:52] [WARNING] [EmailBot] No valid data extracted from LM Studio response for uaeplatform.net@gmail.com
+[2025-06-09 15:11:17] [WARNING] [EmailBot] No valid data extracted from LM Studio response for wikigulf@gmail.com
+[2025-06-09 15:11:22] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-09 15:11:48] [WARNING] [EmailBot] No valid data extracted from LM Studio response for zepredict@gmail.com
+[2025-06-09 15:11:59] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-09 15:12:09] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-09 15:12:22] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-09 15:12:33] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-09 15:12:38] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-09 15:12:51] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-09 15:13:03] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-09 15:13:07] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-09 15:13:11] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-09 15:13:22] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-09 15:13:26] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-09 15:13:32] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-09 15:13:36] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-09 15:14:01] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@techhbs.com
+[2025-06-09 15:14:04] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-09 15:14:29] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@urdufeed.org
+[2025-06-09 15:14:46] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-09 15:14:49] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-09 15:14:52] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-09 15:15:04] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-09 15:15:07] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-09 15:15:11] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-09 15:15:14] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-09 15:15:17] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-09 15:15:21] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-09 15:15:32] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-09 15:15:35] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-09 15:15:39] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-09 15:16:11] [WARNING] [EmailBot] No valid data extracted from LM Studio response for covertvoice.official@gmail.com
+[2025-06-09 15:16:14] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-09 15:16:18] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-09 15:16:21] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-09 15:16:54] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@plungedaily.com
+[2025-06-09 15:16:57] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-09 15:17:23] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thecloudvibe.com
+[2025-06-09 15:17:51] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thotscope.com
+[2025-06-09 15:18:16] [WARNING] [EmailBot] No valid data extracted from LM Studio response for deepakoutreachy@gmail.com
+[2025-06-09 15:18:43] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' \n\n{\n  "Price usd": "",\n  "Price usd casino": "",\n  "Payment": "",\n  "Inform": "",\n  "Comments": ""\n}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй по'
+[2025-06-09 15:19:10] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@ndwompafie.net
+[2025-06-09 15:19:28] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-09 15:19:32] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-09 15:20:01] [WARNING] [EmailBot] No valid data extracted from LM Studio response for elisaedwards30@gmail.com
+[2025-06-09 15:20:05] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-09 15:20:09] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-09 15:20:12] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-09 15:20:28] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-09 15:20:31] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-09 15:20:56] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@plungedaily.com
+[2025-06-09 15:21:09] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-09 15:21:34] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@corporatemarketingguide.com
+[2025-06-09 15:21:39] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-09 15:22:06] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-09 15:22:09] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-09 15:22:13] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-09 15:22:17] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-09 15:22:31] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-09 15:22:58] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@linkingexpert.com
+[2025-06-09 15:23:02] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-09 15:23:05] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-09 15:23:09] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-09 15:23:12] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-09 15:23:16] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-09 15:23:20] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-09 15:23:47] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@suomitanaan.com
+[2025-06-09 15:23:51] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-09 15:24:25] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@teamstore.cz
+[2025-06-09 15:24:29] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-09 15:24:57] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@techedubyte.com
+[2025-06-09 15:25:16] [INFO] [EmailBot] No reply found for sent email to gestionlavozdemedina@yahoo.es
+[2025-06-09 15:25:20] [INFO] [EmailBot] No reply found for sent email to adrienne@upventuremedia.com
+[2025-06-09 15:25:48] [WARNING] [EmailBot] No valid data extracted from LM Studio response for gtvliveonline@gmail.com
+[2025-06-09 15:25:52] [INFO] [EmailBot] No reply found for sent email to info@userteamnames.com
+[2025-06-09 15:26:08] [INFO] [EmailBot] No reply found for sent email to hanna@estdpublishing.com
+[2025-06-09 15:26:11] [INFO] [EmailBot] No reply found for sent email to hello@backtofrontshow.com
+[2025-06-09 15:26:25] [INFO] [EmailBot] No reply found for sent email to info@wikikuwait.com
+[2025-06-09 15:26:52] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "70", "Price usd casino": "200", "Payment": "", "Inform": "TAT: 2-6 Hours\\n2 Dofollow Links\\n500-2000 Words Article\\nNo Sponsored Tags (If You Need, We will add)\\nPermanent Post", "Comm'
+[2025-06-09 15:27:18] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-09 15:27:36] [INFO] [EmailBot] No reply found for sent email to hello@letspostit.net
+[2025-06-09 15:27:40] [INFO] [EmailBot] No reply found for sent email to hello@netizensreport.com
+[2025-06-09 15:28:07] [WARNING] [EmailBot] No valid data extracted from LM Studio response for japanfortwoweb@gmail.com
+[2025-06-09 15:28:11] [INFO] [EmailBot] No reply found for sent email to help.xenstudios@gmail.com
+[2025-06-09 15:28:15] [INFO] [EmailBot] No reply found for sent email to alihussain9435642@gmail.com
+[2025-06-09 15:28:41] [WARNING] [EmailBot] No valid data extracted from LM Studio response for highlifengm@gmail.com
+[2025-06-09 15:28:45] [INFO] [EmailBot] No reply found for sent email to hijridate.ai@gmail.com
+[2025-06-09 15:28:51] [INFO] [EmailBot] No reply found for sent email to hoppej.radoslav@gmail.com
+[2025-06-09 15:28:55] [INFO] [EmailBot] No reply found for sent email to ilariamaria.preti63@gmail.com
+[2025-06-09 15:28:58] [INFO] [EmailBot] No reply found for sent email to info@747mediahouse.com
+[2025-06-09 15:29:04] [INFO] [EmailBot] No reply found for sent email to info@accordshort.com
+[2025-06-09 15:29:08] [INFO] [EmailBot] No reply found for sent email to aris@teknobgt.com
+[2025-06-09 15:29:12] [INFO] [EmailBot] No reply found for sent email to info@bpmc.com
+[2025-06-09 15:29:16] [INFO] [EmailBot] No reply found for sent email to basolemine11@gmail.com
+[2025-06-09 15:29:19] [INFO] [EmailBot] No reply found for sent email to beetle@threekeyslab.com
+[2025-06-09 15:29:23] [INFO] [EmailBot] No reply found for sent email to info@directwinprediction.com
+[2025-06-09 15:29:49] [WARNING] [EmailBot] No valid data extracted from LM Studio response for blogstroveinfo@gmail.com
+[2025-06-09 15:29:52] [INFO] [EmailBot] No reply found for sent email to boss@propagatenetworks.com
+[2025-06-09 15:29:52] [INFO] [EmailBot] Backup Excel created: Mail_USD_backup_20250609_152952.xlsx
+[2025-06-09 15:29:54] [INFO] [EmailBot] === Processing summary ===
+[2025-06-09 15:29:54] [INFO] [EmailBot] Total sent emails processed: 100
+[2025-06-09 15:29:54] [INFO] [EmailBot] Replies found: 26
+[2025-06-09 15:29:54] [INFO] [EmailBot] LM Studio analysis successful: 22
+[2025-06-09 15:29:54] [INFO] [EmailBot] Excel updates performed: 0
+[2025-06-09 15:29:54] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 4, 'excel': 0}
+[2025-06-09 15:29:54] [INFO] [EmailBot] Bad processing count: 4
+[2025-06-09 15:29:54] [INFO] [EmailBot] Elapsed time: 1234.42 seconds
+[2025-06-09 18:11:43] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-09 18:11:46] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-09 18:11:47] [INFO] [EmailBot] Excel email index created. Unique emails: 9291
+[2025-06-09 18:11:47] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 11593
+[2025-06-09 18:11:47] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-09 18:11:47] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-09 18:11:48] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-09 18:11:48] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-09 18:13:29] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-09 18:13:33] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-09 18:14:00] [WARNING] [EmailBot] No valid data extracted from LM Studio response for uaeplatform.net@gmail.com
+[2025-06-09 18:14:24] [WARNING] [EmailBot] No valid data extracted from LM Studio response for wikigulf@gmail.com
+[2025-06-09 18:14:27] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-09 18:14:52] [WARNING] [EmailBot] No valid data extracted from LM Studio response for zepredict@gmail.com
+[2025-06-09 18:15:20] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-09 18:15:42] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-09 18:16:06] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-09 18:16:31] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-09 18:16:34] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-09 18:16:57] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-09 18:17:25] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-09 18:17:29] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-09 18:17:33] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-09 18:18:06] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-09 18:18:10] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-09 18:18:14] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-09 18:18:18] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-09 18:18:42] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@techhbs.com
+[2025-06-09 18:18:47] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-09 18:19:13] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@urdufeed.org
+[2025-06-09 18:19:42] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-09 18:19:46] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-09 18:19:51] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-09 18:20:18] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-09 18:20:22] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-09 18:20:26] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-09 18:20:30] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-09 18:20:34] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-09 18:20:38] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-09 18:20:59] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-09 18:21:04] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-09 18:21:07] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-09 18:21:49] [WARNING] [EmailBot] No valid data extracted from LM Studio response for covertvoice.official@gmail.com
+[2025-06-09 18:21:53] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-09 18:21:57] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-09 18:22:02] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-09 18:23:18] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@plungedaily.com
+[2025-06-09 18:23:22] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-09 18:23:48] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thecloudvibe.com
+[2025-06-09 18:24:28] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thotscope.com
+[2025-06-09 18:24:55] [WARNING] [EmailBot] No valid data extracted from LM Studio response for deepakoutreachy@gmail.com
+[2025-06-09 18:25:22] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' \n\n{\n  "Price usd": "",\n  "Price usd casino": "",\n  "Payment": "",\n  "Inform": "",\n  "Comments": ""\n}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй по'
+[2025-06-09 18:25:47] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@ndwompafie.net
+[2025-06-09 18:26:04] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-09 18:26:08] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-09 18:26:37] [WARNING] [EmailBot] No valid data extracted from LM Studio response for elisaedwards30@gmail.com
+[2025-06-09 18:26:40] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-09 18:26:44] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-09 18:26:48] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-09 18:27:03] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-09 18:27:06] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-09 18:27:30] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@plungedaily.com
+[2025-06-09 18:27:50] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-09 18:28:17] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@corporatemarketingguide.com
+[2025-06-09 18:28:20] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-09 18:28:47] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-09 18:28:52] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-09 18:28:56] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-09 18:29:01] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-09 18:29:14] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-09 18:29:41] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@linkingexpert.com
+[2025-06-09 18:29:45] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-09 18:29:50] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-09 18:29:53] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-09 18:29:58] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-09 18:30:02] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-09 18:30:06] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-09 18:30:33] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@suomitanaan.com
+[2025-06-09 18:30:37] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-09 18:31:19] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@teamstore.cz
+[2025-06-09 18:31:22] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-09 18:31:49] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@techedubyte.com
+[2025-06-09 18:32:10] [INFO] [EmailBot] No reply found for sent email to gestionlavozdemedina@yahoo.es
+[2025-06-09 18:32:13] [INFO] [EmailBot] No reply found for sent email to adrienne@upventuremedia.com
+[2025-06-09 18:32:40] [WARNING] [EmailBot] No valid data extracted from LM Studio response for gtvliveonline@gmail.com
+[2025-06-09 18:32:43] [INFO] [EmailBot] No reply found for sent email to info@userteamnames.com
+[2025-06-09 18:33:02] [INFO] [EmailBot] No reply found for sent email to hanna@estdpublishing.com
+[2025-06-09 18:33:06] [INFO] [EmailBot] No reply found for sent email to hello@backtofrontshow.com
+[2025-06-09 18:33:24] [INFO] [EmailBot] No reply found for sent email to info@wikikuwait.com
+[2025-06-09 18:33:50] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "70", "Price usd casino": "200", "Payment": "", "Inform": "TAT: 2-6 Hours\\n2 Dofollow Links\\n500-2000 Words Article\\nNo Sponsored Tags (If You Need, We will add)\\nPermanent Post", "Comm'
+[2025-06-09 18:34:16] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-09 18:34:36] [INFO] [EmailBot] No reply found for sent email to hello@letspostit.net
+[2025-06-09 18:34:39] [INFO] [EmailBot] No reply found for sent email to hello@netizensreport.com
+[2025-06-09 18:35:06] [WARNING] [EmailBot] No valid data extracted from LM Studio response for japanfortwoweb@gmail.com
+[2025-06-09 18:35:09] [INFO] [EmailBot] No reply found for sent email to help.xenstudios@gmail.com
+[2025-06-09 18:35:14] [INFO] [EmailBot] No reply found for sent email to alihussain9435642@gmail.com
+[2025-06-09 18:35:41] [WARNING] [EmailBot] No valid data extracted from LM Studio response for highlifengm@gmail.com
+[2025-06-09 18:35:45] [INFO] [EmailBot] No reply found for sent email to hijridate.ai@gmail.com
+[2025-06-09 18:35:49] [INFO] [EmailBot] No reply found for sent email to hoppej.radoslav@gmail.com
+[2025-06-09 18:35:52] [INFO] [EmailBot] No reply found for sent email to ilariamaria.preti63@gmail.com
+[2025-06-09 18:35:56] [INFO] [EmailBot] No reply found for sent email to info@747mediahouse.com
+[2025-06-09 18:35:59] [INFO] [EmailBot] No reply found for sent email to info@accordshort.com
+[2025-06-09 18:36:03] [INFO] [EmailBot] No reply found for sent email to aris@teknobgt.com
+[2025-06-09 18:36:07] [INFO] [EmailBot] No reply found for sent email to info@bpmc.com
+[2025-06-09 18:36:11] [INFO] [EmailBot] No reply found for sent email to basolemine11@gmail.com
+[2025-06-09 18:36:15] [INFO] [EmailBot] No reply found for sent email to beetle@threekeyslab.com
+[2025-06-09 18:36:18] [INFO] [EmailBot] No reply found for sent email to info@directwinprediction.com
+[2025-06-09 18:36:45] [WARNING] [EmailBot] No valid data extracted from LM Studio response for blogstroveinfo@gmail.com
+[2025-06-09 18:36:48] [INFO] [EmailBot] No reply found for sent email to boss@propagatenetworks.com
+[2025-06-09 18:36:48] [ERROR] [EmailBot] Failed to save Excel: 'ExcelProcessor' object has no attribute 'save_with_backup'
+[2025-06-09 18:36:48] [INFO] [EmailBot] === Processing summary ===
+[2025-06-09 18:36:48] [INFO] [EmailBot] Total sent emails processed: 100
+[2025-06-09 18:36:48] [INFO] [EmailBot] Replies found: 26
+[2025-06-09 18:36:48] [INFO] [EmailBot] LM Studio analysis successful: 22
+[2025-06-09 18:36:48] [INFO] [EmailBot] Excel updates performed: 0
+[2025-06-09 18:36:48] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 4, 'excel': 1}
+[2025-06-09 18:36:48] [INFO] [EmailBot] Bad processing count: 4
+[2025-06-09 18:36:48] [INFO] [EmailBot] Elapsed time: 1501.36 seconds
