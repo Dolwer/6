@@ -2074,3 +2074,726 @@
 [2025-06-06 05:44:49] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 4, 'excel': 0}
 [2025-06-06 05:44:49] [INFO] [EmailBot] Bad processing count: 4
 [2025-06-06 05:44:49] [INFO] [EmailBot] Elapsed time: 1512.45 seconds
+[2025-06-06 11:29:28] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-06 11:29:30] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-06 11:29:31] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-06 11:29:42] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-06 11:29:42] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-06 11:29:43] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-06 11:29:43] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-06 11:30:17] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-06 11:30:22] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-06 11:31:10] [WARNING] [EmailBot] Email not found in Excel: uaeplatform.net@gmail.com
+[2025-06-06 11:31:57] [WARNING] [EmailBot] Email not found in Excel: wikigulf@gmail.com
+[2025-06-06 11:32:01] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-06 11:32:49] [WARNING] [EmailBot] Email not found in Excel: zepredict@gmail.com
+[2025-06-06 11:32:58] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-06 11:33:08] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-06 11:33:17] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-06 11:33:26] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-06 11:33:30] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-06 11:33:40] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-06 11:33:49] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-06 11:33:53] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-06 11:33:56] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-06 11:34:06] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-06 11:34:09] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-06 11:34:12] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-06 11:34:16] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-06 11:35:04] [WARNING] [EmailBot] Email not found in Excel: contact@techhbs.com
+[2025-06-06 11:35:07] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-06 11:35:55] [WARNING] [EmailBot] Email not found in Excel: contact@urdufeed.org
+[2025-06-06 11:36:06] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-06 11:36:10] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-06 11:36:13] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-06 11:36:23] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-06 11:36:26] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-06 11:36:30] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-06 11:36:33] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-06 11:36:37] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-06 11:36:41] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-06 11:36:51] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-06 11:36:54] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-06 11:36:58] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-06 11:37:50] [WARNING] [EmailBot] Email not found in Excel: covertvoice.official@gmail.com
+[2025-06-06 11:37:54] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-06 11:37:57] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-06 11:38:00] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-06 11:38:53] [WARNING] [EmailBot] Email not found in Excel: editor@plungedaily.com
+[2025-06-06 11:38:58] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-06 11:39:46] [WARNING] [EmailBot] Email not found in Excel: editor@thecloudvibe.com
+[2025-06-06 11:39:52] [INFO] [EmailBot] No reply found for sent email to editor@thotscope.com
+[2025-06-06 11:40:40] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "", "Price usd casino": "", "Payment": "", "Inform": "", "Comments": ""}\n\nПисьмо:\n"Hello,\n\nI am interested in your services. Could you please provide me with the following information?\n'
+[2025-06-06 11:41:28] [WARNING] [EmailBot] Email not found in Excel: editorblackstar@gmail.com
+[2025-06-06 11:42:16] [WARNING] [EmailBot] Email not found in Excel: info@ndwompafie.net
+[2025-06-06 11:42:22] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-06 11:42:25] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-06 11:43:14] [WARNING] [EmailBot] Email not found in Excel: elisaedwards30@gmail.com
+[2025-06-06 11:43:18] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-06 11:43:21] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-06 11:43:25] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-06 11:43:32] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-06 11:43:36] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-06 11:44:23] [WARNING] [EmailBot] Email not found in Excel: info@plungedaily.com
+[2025-06-06 11:44:31] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-06 11:45:18] [WARNING] [EmailBot] Email not found in Excel: admin@corporatemarketingguide.com
+[2025-06-06 11:45:58] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-06 11:45:58] [WARNING] [EmailBot] IMAP list folders failed: command: LIST => socket error: EOF. Reconnecting (try 1)...
+[2025-06-06 11:46:10] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-06 11:46:59] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-06 11:47:03] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-06 11:47:07] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-06 11:47:11] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-06 11:47:17] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-06 11:48:07] [WARNING] [EmailBot] Email not found in Excel: admin@linkingexpert.com
+[2025-06-06 11:48:12] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-06 11:48:17] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-06 11:48:20] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-06 11:48:25] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-06 11:48:28] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-06 11:48:32] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-06 11:49:21] [WARNING] [EmailBot] Email not found in Excel: info@suomitanaan.com
+[2025-06-06 11:49:25] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-06 11:50:15] [WARNING] [EmailBot] Email not found in Excel: admin@teamstore.cz
+[2025-06-06 11:50:18] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-06 11:51:08] [WARNING] [EmailBot] Email not found in Excel: info@techedubyte.com
+[2025-06-06 11:51:15] [INFO] [EmailBot] No reply found for sent email to gestionlavozdemedina@yahoo.es
+[2025-06-06 11:51:19] [INFO] [EmailBot] No reply found for sent email to adrienne@upventuremedia.com
+[2025-06-06 11:52:09] [WARNING] [EmailBot] Email not found in Excel: gtvliveonline@gmail.com
+[2025-06-06 11:52:12] [INFO] [EmailBot] No reply found for sent email to info@userteamnames.com
+[2025-06-06 11:52:19] [INFO] [EmailBot] No reply found for sent email to hanna@estdpublishing.com
+[2025-06-06 11:52:23] [INFO] [EmailBot] No reply found for sent email to hello@backtofrontshow.com
+[2025-06-06 11:52:30] [INFO] [EmailBot] No reply found for sent email to info@wikikuwait.com
+[2025-06-06 11:53:19] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "70", "Price usd casino": "200", "Payment": "", "Inform": "TAT: 2-6 Hours\\n2 Dofollow Links\\n500-2000 Words Article\\nNo Sponsored Tags (If You Need, We will add)\\nPermanent Post", "Comm'
+[2025-06-06 11:54:09] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-06 11:54:16] [INFO] [EmailBot] No reply found for sent email to hello@letspostit.net
+[2025-06-06 11:54:20] [INFO] [EmailBot] No reply found for sent email to hello@netizensreport.com
+[2025-06-06 11:55:09] [WARNING] [EmailBot] Email not found in Excel: japanfortwoweb@gmail.com
+[2025-06-06 11:55:13] [INFO] [EmailBot] No reply found for sent email to help.xenstudios@gmail.com
+[2025-06-06 11:55:16] [INFO] [EmailBot] No reply found for sent email to alihussain9435642@gmail.com
+[2025-06-06 11:56:06] [WARNING] [EmailBot] Email not found in Excel: highlifengm@gmail.com
+[2025-06-06 11:56:10] [INFO] [EmailBot] No reply found for sent email to hijridate.ai@gmail.com
+[2025-06-06 11:56:13] [INFO] [EmailBot] No reply found for sent email to hoppej.radoslav@gmail.com
+[2025-06-06 11:56:16] [INFO] [EmailBot] No reply found for sent email to ilariamaria.preti63@gmail.com
+[2025-06-06 11:56:20] [INFO] [EmailBot] No reply found for sent email to info@747mediahouse.com
+[2025-06-06 11:56:23] [INFO] [EmailBot] No reply found for sent email to info@accordshort.com
+[2025-06-06 11:56:28] [INFO] [EmailBot] No reply found for sent email to aris@teknobgt.com
+[2025-06-06 11:56:32] [INFO] [EmailBot] No reply found for sent email to info@bpmc.com
+[2025-06-06 11:56:36] [INFO] [EmailBot] No reply found for sent email to basolemine11@gmail.com
+[2025-06-06 11:56:39] [INFO] [EmailBot] No reply found for sent email to beetle@threekeyslab.com
+[2025-06-06 11:56:42] [INFO] [EmailBot] No reply found for sent email to info@directwinprediction.com
+[2025-06-06 11:57:32] [WARNING] [EmailBot] Email not found in Excel: blogstroveinfo@gmail.com
+[2025-06-06 11:57:35] [INFO] [EmailBot] No reply found for sent email to boss@propagatenetworks.com
+[2025-06-06 11:57:35] [INFO] [EmailBot] Backup Excel created: Mail_USD_backup_20250606_115735.xlsx
+[2025-06-06 11:57:36] [INFO] [EmailBot] === Processing summary ===
+[2025-06-06 11:57:36] [INFO] [EmailBot] Total sent emails processed: 100
+[2025-06-06 11:57:36] [INFO] [EmailBot] Replies found: 25
+[2025-06-06 11:57:36] [INFO] [EmailBot] LM Studio analysis successful: 21
+[2025-06-06 11:57:36] [INFO] [EmailBot] Excel updates performed: 0
+[2025-06-06 11:57:36] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 4, 'excel': 0}
+[2025-06-06 11:57:36] [INFO] [EmailBot] Bad processing count: 4
+[2025-06-06 11:57:36] [INFO] [EmailBot] Elapsed time: 1685.47 seconds
+[2025-06-08 08:06:23] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 08:06:25] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 08:06:26] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 08:06:26] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 08:06:53] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:06:53] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 08:06:53] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 08:06:53] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 08:07:34] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 08:07:37] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 08:09:10] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:10:42] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:11:01] [WARNING] [EmailBot] IMAP list folders failed: command: LIST => socket error: EOF. Reconnecting (try 1)...
+[2025-06-08 08:11:13] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:11:16] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 08:11:56] [WARNING] [EmailBot] Email not found in Excel: zepredict@gmail.com
+[2025-06-08 08:12:16] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 08:12:16] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:12:17] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:12:28] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-08 08:12:39] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-08 08:12:49] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-08 08:12:52] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-08 08:13:02] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-08 08:13:13] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-08 08:13:16] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-08 08:13:19] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-08 08:13:28] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-08 08:13:31] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-08 08:13:35] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-08 08:13:37] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-08 08:15:10] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:15:30] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-08 08:15:30] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:15:41] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:17:14] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:17:34] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-08 08:17:34] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:17:34] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:17:38] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-08 08:17:41] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-08 08:17:52] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-08 08:17:55] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-08 08:17:58] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-08 08:18:01] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-08 08:18:04] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-08 08:18:07] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-08 08:18:19] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-08 08:18:22] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-08 08:18:25] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-08 08:20:05] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:20:24] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-08 08:20:24] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:20:36] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:20:39] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-08 08:20:42] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-08 08:22:22] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:22:41] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-08 08:22:41] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:22:42] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:24:15] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:24:34] [INFO] [EmailBot] No reply found for sent email to editor@thotscope.com
+[2025-06-08 08:24:34] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:24:34] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:26:07] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:26:27] [INFO] [EmailBot] No reply found for sent email to editorblackstar@gmail.com
+[2025-06-08 08:26:27] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:26:43] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:28:16] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:28:35] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-08 08:28:35] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:28:36] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:28:39] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-08 08:30:12] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:30:31] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-08 08:30:31] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:30:43] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 08:30:45] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-08 08:30:48] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-08 08:30:56] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-08 08:30:59] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-08 08:32:32] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=90)
+[2025-06-08 08:32:52] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-08 08:32:52] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 08:33:03] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:22:06] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 09:22:07] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 09:22:08] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 09:22:08] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 09:22:35] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:22:35] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 09:22:36] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 09:22:36] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 09:23:13] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 09:23:16] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 09:26:19] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:26:39] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 09:26:39] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:26:50] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:26:53] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 09:29:56] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:30:16] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 09:30:16] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:30:27] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:30:41] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-08 09:30:56] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-08 09:31:07] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-08 09:31:10] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-08 09:31:20] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-08 09:31:30] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-08 09:31:34] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-08 09:31:37] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-08 09:31:48] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-08 09:31:50] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-08 09:31:54] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-08 09:31:56] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-08 09:34:59] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:35:19] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-08 09:35:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:35:30] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:38:33] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:38:53] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-08 09:38:53] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:39:04] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:39:07] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-08 09:39:11] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-08 09:39:22] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-08 09:39:25] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-08 09:39:33] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-08 09:39:36] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-08 09:39:39] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-08 09:39:43] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-08 09:39:53] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-08 09:39:56] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-08 09:39:59] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-08 09:43:08] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:43:27] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-08 09:43:27] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:43:39] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:43:42] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-08 09:43:46] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-08 09:46:54] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:47:14] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-08 09:47:14] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:47:25] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:50:28] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:50:48] [INFO] [EmailBot] No reply found for sent email to editor@thotscope.com
+[2025-06-08 09:50:48] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:50:49] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:53:52] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:54:11] [INFO] [EmailBot] No reply found for sent email to editorblackstar@gmail.com
+[2025-06-08 09:54:12] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:54:24] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:57:27] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 09:57:46] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-08 09:57:46] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 09:57:47] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 09:57:50] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-08 10:00:53] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:01:12] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-08 10:01:12] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:01:13] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:01:16] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-08 10:01:19] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-08 10:01:27] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-08 10:01:30] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-08 10:04:33] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:04:52] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-08 10:04:52] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:04:54] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:07:57] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:08:17] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-08 10:08:17] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:08:17] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:11:20] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:11:39] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-08 10:11:39] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:11:40] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:11:43] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-08 10:11:46] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-08 10:11:54] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-08 10:14:57] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:15:17] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-08 10:15:17] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:15:17] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:15:20] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-08 10:15:23] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-08 10:15:26] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-08 10:15:29] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-08 10:15:32] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-08 10:18:35] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:18:55] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-08 10:18:55] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:18:55] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:22:01] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:22:21] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-08 10:22:21] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:22:32] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:25:35] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:25:55] [INFO] [EmailBot] No reply found for sent email to gestionlavozdemedina@yahoo.es
+[2025-06-08 10:25:55] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:25:55] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:25:58] [INFO] [EmailBot] No reply found for sent email to adrienne@upventuremedia.com
+[2025-06-08 10:29:01] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:29:21] [INFO] [EmailBot] No reply found for sent email to info@userteamnames.com
+[2025-06-08 10:29:21] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:29:32] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:29:40] [INFO] [EmailBot] No reply found for sent email to hanna@estdpublishing.com
+[2025-06-08 10:29:43] [INFO] [EmailBot] No reply found for sent email to hello@backtofrontshow.com
+[2025-06-08 10:29:51] [INFO] [EmailBot] No reply found for sent email to info@wikikuwait.com
+[2025-06-08 10:32:53] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:33:13] [INFO] [EmailBot] No reply found for sent email to hello@gposting.com
+[2025-06-08 10:33:13] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:33:25] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:33:31] [INFO] [EmailBot] No reply found for sent email to hello@letspostit.net
+[2025-06-08 10:33:33] [INFO] [EmailBot] No reply found for sent email to hello@netizensreport.com
+[2025-06-08 10:36:36] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:36:56] [INFO] [EmailBot] No reply found for sent email to help.xenstudios@gmail.com
+[2025-06-08 10:36:56] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:36:56] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:36:59] [INFO] [EmailBot] No reply found for sent email to alihussain9435642@gmail.com
+[2025-06-08 10:40:02] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:40:22] [INFO] [EmailBot] No reply found for sent email to hijridate.ai@gmail.com
+[2025-06-08 10:40:22] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 10:40:23] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 10:40:26] [INFO] [EmailBot] No reply found for sent email to hoppej.radoslav@gmail.com
+[2025-06-08 10:40:30] [INFO] [EmailBot] No reply found for sent email to ilariamaria.preti63@gmail.com
+[2025-06-08 10:40:33] [INFO] [EmailBot] No reply found for sent email to info@747mediahouse.com
+[2025-06-08 10:40:37] [INFO] [EmailBot] No reply found for sent email to info@accordshort.com
+[2025-06-08 10:40:40] [INFO] [EmailBot] No reply found for sent email to aris@teknobgt.com
+[2025-06-08 10:40:44] [INFO] [EmailBot] No reply found for sent email to info@bpmc.com
+[2025-06-08 10:40:47] [INFO] [EmailBot] No reply found for sent email to basolemine11@gmail.com
+[2025-06-08 10:40:51] [INFO] [EmailBot] No reply found for sent email to beetle@threekeyslab.com
+[2025-06-08 10:40:54] [INFO] [EmailBot] No reply found for sent email to info@directwinprediction.com
+[2025-06-08 10:43:57] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 10:44:16] [INFO] [EmailBot] No reply found for sent email to boss@propagatenetworks.com
+[2025-06-08 10:44:16] [WARNING] [EmailBot] IMAP logout error: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+[2025-06-08 10:44:16] [INFO] [EmailBot] Backup Excel created: Mail_USD_backup_20250608_104416.xlsx
+[2025-06-08 10:44:18] [INFO] [EmailBot] === Processing summary ===
+[2025-06-08 10:44:18] [INFO] [EmailBot] Total sent emails processed: 100
+[2025-06-08 10:44:18] [INFO] [EmailBot] Replies found: 22
+[2025-06-08 10:44:18] [INFO] [EmailBot] LM Studio analysis successful: 0
+[2025-06-08 10:44:18] [INFO] [EmailBot] Excel updates performed: 0
+[2025-06-08 10:44:18] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 22, 'excel': 0}
+[2025-06-08 10:44:18] [INFO] [EmailBot] Bad processing count: 22
+[2025-06-08 10:44:18] [INFO] [EmailBot] Elapsed time: 4929.32 seconds
+[2025-06-08 12:04:01] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 12:04:03] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 12:04:04] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 12:04:04] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 12:04:15] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:04:16] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 12:04:16] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 12:04:16] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 12:04:54] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 12:04:58] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 12:08:01] [ERROR] [EmailBot] LM Studio API error: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=180)
+[2025-06-08 12:08:20] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 12:08:20] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:08:21] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:08:25] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 12:10:18] [ERROR] [EmailBot] LM Studio API error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-06-08 12:10:37] [WARNING] [EmailBot] IMAP logout error: socket error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:2427)
+[2025-06-08 12:11:44] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 12:11:46] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 12:11:47] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 12:11:47] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 12:11:58] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:11:58] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 12:11:58] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 12:11:58] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 12:12:28] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 12:12:31] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 12:12:59] [ERROR] [EmailBot] Excel update failed for uaeplatform.net@gmail.com: slice(None, 500, None)
+[2025-06-08 12:13:19] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 12:13:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:13:19] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:13:22] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 12:13:48] [ERROR] [EmailBot] Excel update failed for zepredict@gmail.com: slice(None, 500, None)
+[2025-06-08 12:14:07] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 12:14:07] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:14:09] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:14:18] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-08 12:14:28] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-08 12:14:39] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-08 12:14:42] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-08 12:14:52] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-08 12:15:03] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-08 12:15:07] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-08 12:15:10] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-08 12:15:21] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-08 12:15:24] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-08 12:15:27] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-08 12:15:31] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-08 12:15:55] [ERROR] [EmailBot] Excel update failed for contact@techhbs.com: slice(None, 500, None)
+[2025-06-08 12:16:15] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-08 12:16:15] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:16:15] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:16:39] [ERROR] [EmailBot] Excel update failed for contact@urdufeed.org: slice(None, 500, None)
+[2025-06-08 12:16:59] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-08 12:16:59] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:17:00] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:17:03] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-08 12:17:06] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-08 12:17:18] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-08 12:17:21] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-08 12:17:24] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-08 12:17:27] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-08 12:17:31] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-08 12:17:34] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-08 12:17:45] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-08 12:17:48] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-08 12:17:51] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-08 12:18:21] [ERROR] [EmailBot] Excel update failed for covertvoice.official@gmail.com: slice(None, 500, None)
+[2025-06-08 12:18:40] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-08 12:18:40] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:18:41] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:18:45] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-08 12:18:48] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-08 12:19:19] [ERROR] [EmailBot] Excel update failed for editor@plungedaily.com: slice(None, 500, None)
+[2025-06-08 12:19:39] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-08 12:19:39] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:19:39] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:20:04] [ERROR] [EmailBot] Excel update failed for editor@thecloudvibe.com: slice(None, 500, None)
+[2025-06-08 12:20:23] [INFO] [EmailBot] No reply found for sent email to editor@thotscope.com
+[2025-06-08 12:20:23] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:20:35] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:21:00] [ERROR] [EmailBot] Excel update failed for deepakoutreachy@gmail.com: slice(None, 500, None)
+[2025-06-08 12:21:19] [INFO] [EmailBot] No reply found for sent email to editorblackstar@gmail.com
+[2025-06-08 12:21:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:21:20] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:21:44] [ERROR] [EmailBot] Excel update failed for info@ndwompafie.net: slice(None, 500, None)
+[2025-06-08 12:22:04] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-08 12:22:04] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:22:04] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:22:08] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-08 12:22:33] [ERROR] [EmailBot] Excel update failed for elisaedwards30@gmail.com: slice(None, 500, None)
+[2025-06-08 12:22:53] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-08 12:22:53] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:22:53] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:22:57] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-08 12:23:00] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-08 12:23:07] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-08 12:23:11] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-08 12:23:35] [ERROR] [EmailBot] Excel update failed for info@plungedaily.com: slice(None, 500, None)
+[2025-06-08 12:23:55] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-08 12:23:55] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:23:55] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:24:19] [ERROR] [EmailBot] Excel update failed for admin@corporatemarketingguide.com: slice(None, 500, None)
+[2025-06-08 12:24:39] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-08 12:24:39] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:24:39] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:25:05] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-08 12:25:24] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-08 12:25:24] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:25:25] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:25:28] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-08 12:25:31] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-08 12:25:37] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-08 12:26:03] [ERROR] [EmailBot] Excel update failed for admin@linkingexpert.com: slice(None, 500, None)
+[2025-06-08 12:26:23] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-08 12:26:23] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:26:23] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:26:27] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-08 12:26:30] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-08 12:26:33] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-08 12:26:36] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-08 12:26:39] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-08 12:27:03] [ERROR] [EmailBot] Excel update failed for info@suomitanaan.com: slice(None, 500, None)
+[2025-06-08 12:27:22] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-08 12:27:22] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:27:23] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:27:51] [ERROR] [EmailBot] Excel update failed for admin@Teamstore.cz: slice(None, 500, None)
+[2025-06-08 12:28:11] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-08 12:28:11] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:28:11] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:28:23] [ERROR] [EmailBot] LM Studio API error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-06-08 12:28:42] [WARNING] [EmailBot] IMAP logout error: socket error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:2427)
+[2025-06-08 12:29:47] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 12:29:49] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 12:29:50] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 12:29:50] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 12:29:50] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:29:50] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 12:29:50] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 12:29:51] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 12:30:33] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 12:30:36] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 12:31:00] [WARNING] [EmailBot] No valid data extracted from LM Studio response for uaeplatform.net@gmail.com
+[2025-06-08 12:31:19] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 12:31:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:31:31] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:31:34] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 12:31:59] [WARNING] [EmailBot] No valid data extracted from LM Studio response for zepredict@gmail.com
+[2025-06-08 12:32:19] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 12:32:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:32:19] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:32:31] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-08 12:32:42] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-08 12:32:56] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-08 12:32:59] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-08 12:33:11] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-08 12:33:25] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-08 12:33:28] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-08 12:33:32] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-08 12:33:45] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-08 12:33:48] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-08 12:33:51] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-08 12:33:55] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-08 12:34:20] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@techhbs.com
+[2025-06-08 12:34:40] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-08 12:34:40] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:34:59] [WARNING] [EmailBot] IMAP connection failed (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)
+[2025-06-08 12:35:19] [WARNING] [EmailBot] IMAP connection failed (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)
+[2025-06-08 12:35:33] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:35:42] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@urdufeed.org
+[2025-06-08 12:35:54] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-08 12:35:57] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-08 12:36:00] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-08 12:36:11] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-08 12:36:15] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-08 12:36:18] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-08 12:36:21] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-08 12:44:45] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 12:44:46] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 12:44:47] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 12:44:47] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 12:44:48] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:44:48] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 12:44:48] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 12:44:48] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 12:45:27] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 12:45:31] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 12:45:55] [WARNING] [EmailBot] No valid data extracted from LM Studio response for uaeplatform.net@gmail.com
+[2025-06-08 12:46:14] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 12:46:14] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:46:15] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 12:46:18] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 12:46:42] [WARNING] [EmailBot] No valid data extracted from LM Studio response for zepredict@gmail.com
+[2025-06-08 12:47:02] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 12:47:02] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 12:47:02] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:41:19] [INFO] [EmailBot] Starting email processing bot...
+[2025-06-08 13:41:20] [WARNING] [EmailBot] Found 192 rows with multiple emails in 'Mail' column. Marked in red.
+[2025-06-08 13:41:21] [INFO] [EmailBot] Excel email index created. Unique emails: 6438
+[2025-06-08 13:41:21] [INFO] [EmailBot] Loaded Excel: Mail_USD.xlsx, rows: 8652
+[2025-06-08 13:41:34] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:41:34] [INFO] [EmailBot] Decoded folder names: ['INBOX', 'Черновики', 'Шаблоны', 'Snoozed', 'Отправленные', 'Спам', 'Корзина', 'Notification', 'Newsletter', 'snovio', 'DMAC']
+[2025-06-08 13:41:34] [INFO] [EmailBot] Selected IMAP folder: Отправленные (raw: &BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-)
+[2025-06-08 13:41:34] [INFO] [EmailBot] DEBUG: Всего найдено id писем: 100
+[2025-06-08 13:42:12] [INFO] [EmailBot] Fetched 100 sent emails from '&BB4EQgQ,BEAEMAQyBDsENQQ9BD0ESwQ1-'
+[2025-06-08 13:42:15] [INFO] [EmailBot] No reply found for sent email to thecricketpandas@gmail.com
+[2025-06-08 13:42:39] [WARNING] [EmailBot] No valid data extracted from LM Studio response for uaeplatform.net@gmail.com
+[2025-06-08 13:42:59] [INFO] [EmailBot] No reply found for sent email to wikigulf@gmail.com
+[2025-06-08 13:42:59] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:42:59] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:43:02] [INFO] [EmailBot] No reply found for sent email to wiliam_ukbest5@gmail.com
+[2025-06-08 13:43:26] [WARNING] [EmailBot] No valid data extracted from LM Studio response for zepredict@gmail.com
+[2025-06-08 13:43:46] [INFO] [EmailBot] No reply found for sent email to zico@ducklandgames.com
+[2025-06-08 13:43:46] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:43:46] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:43:58] [INFO] [EmailBot] No reply found for sent email to charles.mcderrmott1990@gmail.com
+[2025-06-08 13:44:08] [INFO] [EmailBot] No reply found for sent email to chaz@estdpublishing.com
+[2025-06-08 13:44:18] [INFO] [EmailBot] No reply found for sent email to chinaapplications@dhet.gov.za
+[2025-06-08 13:44:21] [INFO] [EmailBot] No reply found for sent email to comercial@grandepremio.com
+[2025-06-08 13:44:32] [INFO] [EmailBot] No reply found for sent email to community@prophecygames.com
+[2025-06-08 13:44:42] [INFO] [EmailBot] No reply found for sent email to contact@grosseasy.com
+[2025-06-08 13:44:45] [INFO] [EmailBot] No reply found for sent email to contact@kayefi.com
+[2025-06-08 13:44:48] [INFO] [EmailBot] No reply found for sent email to contact@kidsturncentral.com
+[2025-06-08 13:44:58] [INFO] [EmailBot] No reply found for sent email to contact@mobilehomeexteriors.com
+[2025-06-08 13:45:02] [INFO] [EmailBot] No reply found for sent email to contact@modradar.com
+[2025-06-08 13:45:05] [INFO] [EmailBot] No reply found for sent email to contact@pocketmemories.net
+[2025-06-08 13:45:08] [INFO] [EmailBot] No reply found for sent email to contact@sundarbantracking.com
+[2025-06-08 13:45:32] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@techhbs.com
+[2025-06-08 13:45:52] [INFO] [EmailBot] No reply found for sent email to contact@techpilot.ai
+[2025-06-08 13:45:52] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:46:03] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:46:13] [WARNING] [EmailBot] No valid data extracted from LM Studio response for contact@urdufeed.org
+[2025-06-08 13:46:32] [INFO] [EmailBot] No reply found for sent email to info@exposmall.com
+[2025-06-08 13:46:32] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:46:33] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:46:36] [INFO] [EmailBot] No reply found for sent email to info@faktabasen.se
+[2025-06-08 13:46:39] [INFO] [EmailBot] No reply found for sent email to info@farmarecycling.es
+[2025-06-08 13:46:50] [INFO] [EmailBot] No reply found for sent email to contacto@laverdadnoticias.com
+[2025-06-08 13:46:53] [INFO] [EmailBot] No reply found for sent email to info@fixerlab.gr
+[2025-06-08 13:46:56] [INFO] [EmailBot] No reply found for sent email to info@giverefer.com
+[2025-06-08 13:47:00] [INFO] [EmailBot] No reply found for sent email to contacts@estoturf.net
+[2025-06-08 13:47:03] [INFO] [EmailBot] No reply found for sent email to info@infomena.com
+[2025-06-08 13:47:06] [INFO] [EmailBot] No reply found for sent email to contactshayarikitab@gmail.com
+[2025-06-08 13:47:17] [INFO] [EmailBot] No reply found for sent email to info@kaanch.com
+[2025-06-08 13:47:20] [INFO] [EmailBot] No reply found for sent email to info@kalkamausam.com
+[2025-06-08 13:47:23] [INFO] [EmailBot] No reply found for sent email to corrections@musictimes.com
+[2025-06-08 13:47:54] [WARNING] [EmailBot] No valid data extracted from LM Studio response for covertvoice.official@gmail.com
+[2025-06-08 13:48:13] [INFO] [EmailBot] No reply found for sent email to editor@coinfomania.com
+[2025-06-08 13:48:13] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:48:14] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:48:17] [INFO] [EmailBot] No reply found for sent email to customer.services@admiralgroup.co.uk
+[2025-06-08 13:48:20] [INFO] [EmailBot] No reply found for sent email to customer.services@directline.com
+[2025-06-08 13:48:50] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@plungedaily.com
+[2025-06-08 13:49:10] [INFO] [EmailBot] No reply found for sent email to danie.vanderlith@acm.co.za
+[2025-06-08 13:49:10] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:49:25] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:49:49] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thecloudvibe.com
+[2025-06-08 13:50:32] [WARNING] [EmailBot] No valid data extracted from LM Studio response for editor@thotscope.com
+[2025-06-08 13:50:32] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:50:33] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:50:57] [WARNING] [EmailBot] No valid data extracted from LM Studio response for deepakoutreachy@gmail.com
+[2025-06-08 13:51:16] [INFO] [EmailBot] No reply found for sent email to editorblackstar@gmail.com
+[2025-06-08 13:51:16] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:51:17] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:51:41] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@ndwompafie.net
+[2025-06-08 13:52:01] [INFO] [EmailBot] No reply found for sent email to srondestvedt@dailyemerald.com
+[2025-06-08 13:52:01] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:52:01] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:52:04] [INFO] [EmailBot] No reply found for sent email to ssl@webfactoryltd.com
+[2025-06-08 13:52:29] [WARNING] [EmailBot] No valid data extracted from LM Studio response for elisaedwards30@gmail.com
+[2025-06-08 13:52:49] [INFO] [EmailBot] No reply found for sent email to info@netnews.bg
+[2025-06-08 13:52:49] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:52:49] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:52:52] [INFO] [EmailBot] No reply found for sent email to 20nellie@wildjunket.com
+[2025-06-08 13:52:55] [INFO] [EmailBot] No reply found for sent email to emailhello@businessname.com
+[2025-06-08 13:53:01] [INFO] [EmailBot] No reply found for sent email to info@phonedeck.net
+[2025-06-08 13:53:04] [INFO] [EmailBot] No reply found for sent email to epaper@newtelegraphng.com
+[2025-06-08 13:53:28] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@plungedaily.com
+[2025-06-08 13:53:48] [INFO] [EmailBot] No reply found for sent email to actualidadvalencia@mastodon.social
+[2025-06-08 13:53:48] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:53:48] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:54:12] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@corporatemarketingguide.com
+[2025-06-08 13:54:32] [INFO] [EmailBot] No reply found for sent email to esthele@publithings.com
+[2025-06-08 13:54:32] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:54:51] [WARNING] [EmailBot] IMAP connection failed (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)
+[2025-06-08 13:54:53] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:55:18] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "","Price usd casino": "","Payment": "","Inform": "","Comments": ""}\nИзвлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\nНе добавляй пояснения, комментар'
+[2025-06-08 13:55:37] [INFO] [EmailBot] No reply found for sent email to admin@dreamchaserhub.com
+[2025-06-08 13:55:38] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:55:49] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:55:52] [INFO] [EmailBot] No reply found for sent email to admin@eldyar.xyz
+[2025-06-08 13:55:55] [INFO] [EmailBot] No reply found for sent email to info@roninarea.com
+[2025-06-08 13:56:02] [INFO] [EmailBot] No reply found for sent email to faspeinfo@gmail.com
+[2025-06-08 13:56:27] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@linkingexpert.com
+[2025-06-08 13:56:46] [INFO] [EmailBot] No reply found for sent email to firstname_lastname@domain.com
+[2025-06-08 13:56:46] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:56:47] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:56:50] [INFO] [EmailBot] No reply found for sent email to admin@longmontleader.com
+[2025-06-08 13:56:53] [INFO] [EmailBot] No reply found for sent email to info@sjukhus.nu
+[2025-06-08 13:56:56] [INFO] [EmailBot] No reply found for sent email to frank@xendex.net
+[2025-06-08 13:57:00] [INFO] [EmailBot] No reply found for sent email to info@smgroup.bg
+[2025-06-08 13:57:03] [INFO] [EmailBot] No reply found for sent email to furacao@futebolbr.com.br
+[2025-06-08 13:57:27] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@suomitanaan.com
+[2025-06-08 13:57:46] [INFO] [EmailBot] No reply found for sent email to admin@sundarbantracking.com
+[2025-06-08 13:57:46] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:57:47] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:58:13] [WARNING] [EmailBot] No valid data extracted from LM Studio response for admin@teamstore.cz
+[2025-06-08 13:58:33] [INFO] [EmailBot] No reply found for sent email to geraldine.cupido@iol.co.za
+[2025-06-08 13:58:33] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:58:33] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:58:57] [WARNING] [EmailBot] No valid data extracted from LM Studio response for info@techedubyte.com
+[2025-06-08 13:59:17] [INFO] [EmailBot] No reply found for sent email to gestionlavozdemedina@yahoo.es
+[2025-06-08 13:59:17] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 13:59:29] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 13:59:32] [INFO] [EmailBot] No reply found for sent email to adrienne@upventuremedia.com
+[2025-06-08 13:59:57] [WARNING] [EmailBot] No valid data extracted from LM Studio response for gtvliveonline@gmail.com
+[2025-06-08 14:00:17] [INFO] [EmailBot] No reply found for sent email to info@userteamnames.com
+[2025-06-08 14:00:17] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 14:00:17] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 14:00:25] [INFO] [EmailBot] No reply found for sent email to hanna@estdpublishing.com
+[2025-06-08 14:00:28] [INFO] [EmailBot] No reply found for sent email to hello@backtofrontshow.com
+[2025-06-08 14:00:35] [INFO] [EmailBot] No reply found for sent email to info@wikikuwait.com
+[2025-06-08 14:00:59] [WARNING] [EmailBot] LM Studio: Не удалось извлечь JSON из ответа: ' {"Price usd": "70", "Price usd casino": "200", "Payment": "", "Inform": "TAT: 2-6 Hours\\n2 Dofollow Links\\n500-2000 Words Article\\nNo Sponsored Tags (If You Need, We will add)\\nPermanent Post", "Comm'
+[2025-06-08 14:01:19] [INFO] [EmailBot] No reply found for sent email to hello@gposting.com
+[2025-06-08 14:01:19] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 14:01:19] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 14:01:26] [INFO] [EmailBot] No reply found for sent email to hello@letspostit.net
+[2025-06-08 14:01:29] [INFO] [EmailBot] No reply found for sent email to hello@netizensreport.com
+[2025-06-08 14:01:53] [WARNING] [EmailBot] No valid data extracted from LM Studio response for japanfortwoweb@gmail.com
+[2025-06-08 14:02:13] [INFO] [EmailBot] No reply found for sent email to help.xenstudios@gmail.com
+[2025-06-08 14:02:13] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 14:02:13] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 14:02:17] [INFO] [EmailBot] No reply found for sent email to alihussain9435642@gmail.com
+[2025-06-08 14:02:41] [WARNING] [EmailBot] No valid data extracted from LM Studio response for highlifengm@gmail.com
+[2025-06-08 14:03:01] [INFO] [EmailBot] No reply found for sent email to hijridate.ai@gmail.com
+[2025-06-08 14:03:01] [WARNING] [EmailBot] IMAP list folders failed: socket error: EOF occurred in violation of protocol (_ssl.c:2427). Reconnecting (try 1)...
+[2025-06-08 14:03:01] [INFO] [EmailBot] Connected to IMAP server imappro.zoho.eu
+[2025-06-08 14:03:04] [INFO] [EmailBot] No reply found for sent email to hoppej.radoslav@gmail.com
+[2025-06-08 14:03:07] [INFO] [EmailBot] No reply found for sent email to ilariamaria.preti63@gmail.com
+[2025-06-08 14:03:10] [INFO] [EmailBot] No reply found for sent email to info@747mediahouse.com
+[2025-06-08 14:03:13] [INFO] [EmailBot] No reply found for sent email to info@accordshort.com
+[2025-06-08 14:03:16] [INFO] [EmailBot] No reply found for sent email to aris@teknobgt.com
+[2025-06-08 14:03:19] [INFO] [EmailBot] No reply found for sent email to info@bpmc.com
+[2025-06-08 14:03:23] [INFO] [EmailBot] No reply found for sent email to basolemine11@gmail.com
+[2025-06-08 14:03:26] [INFO] [EmailBot] No reply found for sent email to beetle@threekeyslab.com
+[2025-06-08 14:03:29] [INFO] [EmailBot] No reply found for sent email to info@directwinprediction.com
+[2025-06-08 14:03:53] [WARNING] [EmailBot] No valid data extracted from LM Studio response for blogstroveinfo@gmail.com
+[2025-06-08 14:04:13] [INFO] [EmailBot] No reply found for sent email to boss@propagatenetworks.com
+[2025-06-08 14:04:13] [WARNING] [EmailBot] IMAP logout error: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+[2025-06-08 14:04:13] [INFO] [EmailBot] Backup Excel created: Mail_USD_backup_20250608_140413.xlsx
+[2025-06-08 14:04:14] [INFO] [EmailBot] === Processing summary ===
+[2025-06-08 14:04:14] [INFO] [EmailBot] Total sent emails processed: 100
+[2025-06-08 14:04:14] [INFO] [EmailBot] Replies found: 23
+[2025-06-08 14:04:14] [INFO] [EmailBot] LM Studio analysis successful: 21
+[2025-06-08 14:04:14] [INFO] [EmailBot] Excel updates performed: 0
+[2025-06-08 14:04:14] [INFO] [EmailBot] Errors: {'imap': 0, 'lm_studio': 2, 'excel': 0}
+[2025-06-08 14:04:14] [INFO] [EmailBot] Bad processing count: 2
+[2025-06-08 14:04:14] [INFO] [EmailBot] Elapsed time: 1372.38 seconds

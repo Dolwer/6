@@ -1,7 +1,7 @@
 import requests
 import json
 import re
-from .utils import retry_with_backoff
+from .utils import retry_with_backoff, strip_html_tags
 
 class LMStudioClient:
     def __init__(self, api_url, model_name, logger, timeout=90, max_tokens=512, temperature=0.0, retry_attempts=2):
@@ -19,7 +19,10 @@ class LMStudioClient:
         Анализ письма через LM Studio.
         Возвращает: Dict c извлечёнными данными или None при ошибке.
         """
-        prompt = self._create_prompt(email_body, target_fields)
+        # ОЧИСТКА ПИСЬМА: убрать HTML, цитаты, подписи и т.п.
+        clean_body = self._preprocess_body(email_body)
+        prompt = self._create_prompt(clean_body, target_fields)
+
         payload = {
             "model": self.model_name,
             "prompt": prompt,
@@ -38,10 +41,10 @@ class LMStudioClient:
             response.raise_for_status()
             result = response.json()
             text = result.get("choices", [{}])[0].get("text", "")
-            
+
             # Логируем сырой ответ для отладки
             self.logger.debug(f"LM Studio raw response: {repr(text)}")
-            
+
             parsed = self._parse_response(text, target_fields)
             if parsed is None:
                 self.logger.warning(f"LM Studio: Не удалось извлечь JSON из ответа: {repr(text[:200])}")
@@ -50,54 +53,77 @@ class LMStudioClient:
             self.logger.error(f"LM Studio API error: {e}")
             return None
 
+    def _preprocess_body(self, email_body):
+        """
+        Очищает тело письма:
+        - убирает HTML
+        - удаляет цитаты (строки, начинающиеся с '>')
+        - удаляет подписи (простая эвристика для 'Best regards', 'On ... wrote:')
+        """
+        if not email_body:
+            return ""
+
+        # Убираем HTML, если есть
+        body = strip_html_tags(email_body)
+
+        # Убираем цитаты (строки, начинающиеся с '>')
+        lines = body.splitlines()
+        cleaned_lines = []
+        for line in lines:
+            if line.strip().startswith(">"):
+                continue
+            # Убираем всё, что идет после стандартного "On <date> <name> wrote:"
+            if re.match(r"^On .+ wrote:", line):
+                break
+            if "Best regards" in line or "Regards," in line or "Sent from" in line:
+                break
+            cleaned_lines.append(line)
+        cleaned = "\n".join(cleaned_lines).strip()
+        return cleaned
+
     def _create_prompt(self, email_body, target_fields):
         """
-        Создание промпта для LM Studio.
-        Улучшенный промпт с четкими инструкциями.
+        Создание очень строгого промпта для LM Studio.
         """
         fields_example = {field: "" for field in target_fields}
         example_json = json.dumps(fields_example, ensure_ascii=False, indent=2)
 
         prompt = (
-            f"Извлеки информацию из письма и верни ТОЛЬКО JSON в указанном формате.\n"
-            f"Не добавляй пояснения, комментарии или другой текст.\n"
-            f"Не добавляй длинных ссылок, не включай вложения и списки. "
-            f"Включай их только если автор письма явно просит об этом.\n\n"
-            f"Требуемый формат JSON:\n"
-            f"{example_json}\n\n"
-            f"Правила:\n"
-            f"- Если информация отсутствует, используй пустую строку \"\"\n"
-            f"- Не добавляй поля, которых нет в примере\n"
-            f"- Верни только валидный JSON\n\n"
-            f"Текст письма:\n"
+            "Извлеки информацию из письма и верни ТОЛЬКО один валидный JSON в указанном формате.\n"
+            "Не добавляй пояснения, комментарии, markdown, вложения, списки, ссылки или другой текст, размышления.\n"
+            "Не добавляй никаких заголовков, только JSON!\n"
+            "Если информации нет — оставь поле пустым (\"\").\n"
+            "Нельзя добавлять поля, которых нет в примере.\n\n"
+            f"Формат:\n{example_json}\n\n"
+            "Текст письма:\n"
             f"{email_body}\n\n"
-            f"JSON:"
+            "JSON:"
         )
         return prompt
 
     def _parse_response(self, response_text, target_fields):
         """
-        Улучшенный парсинг ответа LM Studio с множественными стратегиями.
+        Усиленный парсинг ответа LM Studio: 
+        - поиск JSON, попытка починить, fallback-стратегии.
         """
         if not response_text or not response_text.strip():
             self.logger.debug("Пустой ответ от LM Studio")
             return None
 
-        # Стратегия 1: Поиск JSON между фигурными скобками (самый надежный)
+        # ШАГ 1: Поиск валидного JSON-объекта
         json_objects = self._extract_json_objects(response_text)
-        
         for json_obj in json_objects:
             parsed = self._try_parse_json(json_obj, target_fields)
             if parsed is not None:
                 return parsed
 
-        # Стратегия 2: Попробовать весь текст как JSON (после очистки)
+        # ШАГ 2: Fallback — пробуем весь текст как JSON (после чистки)
         cleaned_text = self._clean_response_text(response_text)
         parsed = self._try_parse_json(cleaned_text, target_fields)
         if parsed is not None:
             return parsed
 
-        # Стратегия 3: Поиск JSON после ключевых слов
+        # ШАГ 3: Fallback — поиск JSON после ключевых слов
         json_after_keywords = self._extract_json_after_keywords(response_text)
         for json_text in json_after_keywords:
             parsed = self._try_parse_json(json_text, target_fields)
@@ -109,12 +135,9 @@ class LMStudioClient:
 
     def _extract_json_objects(self, text):
         """
-        Извлекает все JSON-объекты из текста, учитывая вложенность и обрезку в конце.
-        Если находит явно обрезанный JSON — пытается его аккуратно «закрыть» и валидировать.
+        Извлекает все JSON-объекты из текста, учитывая вложенность и обрезку.
         """
         json_objects = []
-
-        # Поиск всех валидных JSON-объектов по вложенным скобкам
         brace_count = 0
         start_pos = None
         for i, char in enumerate(text):
@@ -129,7 +152,7 @@ class LMStudioClient:
                     json_objects.append(json_candidate)
                     start_pos = None
 
-        # Если валидных JSON не найдено, ищем последний незакрытый объект и пробуем его починить
+        # Если не нашли ни одного объекта — ищем последний незакрытый и пытаемся починить
         if not json_objects:
             last_open = text.rfind('{')
             if last_open != -1:
@@ -139,25 +162,18 @@ class LMStudioClient:
                     self.logger.warning("LM Studio: Auto-fix applied to truncated JSON.")
                     json_objects.append(fixed_candidate)
         return json_objects
-        
-        # Дополнительно: простой regex для случаев, где алгоритм выше не сработал
-        regex_matches = re.findall(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', text, re.DOTALL)
-        json_objects.extend(regex_matches)
-        
-        return json_objects
+
     def _try_fix_truncated_json(self, candidate):
         """
-        Пробует аккуратно «закрыть» обрезанный JSON-объект, добавляя кавычки/скобки.
-        Не гарантирует исправление, просто пытается минимально восстановить структуру.
+        Пробует аккуратно «закрыть» обрезанный JSON-объект.
         """
         candidate = candidate.rstrip()
-        # Если последняя строка внутри объекта оборвана — пытаемся закрыть кавычки
+        # Закрываем кавычки, если нужно
         if candidate.count('"') % 2 != 0:
             candidate += '"'
-        # Если не хватает закрывающей скобки
+        # Закрываем скобки
         if candidate.count('{') > candidate.count('}'):
             candidate += '}'
-        # Пробуем загрузить как JSON
         try:
             json.loads(candidate)
             return candidate
@@ -166,82 +182,59 @@ class LMStudioClient:
 
     def _extract_json_after_keywords(self, text):
         """
-        Ищет JSON после ключевых слов типа "JSON:", "Результат:", и т.д.
+        Ищет JSON после ключевых слов типа "JSON:", "Результат:" и т.д.
         """
         keywords = [
             r'JSON\s*:',
             r'Результат\s*:',
             r'Ответ\s*:',
             r'Извлеченные данные\s*:',
-            r'\{',  # Просто первая открывающая скобка
         ]
-        
         json_candidates = []
-        
         for keyword in keywords:
             pattern = rf'{keyword}\s*(\{{.*?\}})'
             matches = re.findall(pattern, text, re.DOTALL | re.IGNORECASE)
             json_candidates.extend(matches)
-            
-            # Также ищем все от ключевого слова до конца
             match = re.search(rf'{keyword}\s*(.*)', text, re.DOTALL | re.IGNORECASE)
             if match:
                 remaining_text = match.group(1).strip()
-                # Извлекаем первый JSON-объект из оставшегося текста
                 json_from_remaining = self._extract_json_objects(remaining_text)
                 json_candidates.extend(json_from_remaining)
-        
         return json_candidates
 
     def _clean_response_text(self, text):
         """
         Очищает текст от комментариев и лишних символов.
         """
-        # Удаляем комментарии в стиле //
         text = re.sub(r'//.*?$', '', text, flags=re.MULTILINE)
-        
-        # Удаляем комментарии в стиле /* */
         text = re.sub(r'/\*.*?\*/', '', text, flags=re.DOTALL)
-        
-        # Удаляем лишние пробелы и переносы строк
         text = re.sub(r'\s+', ' ', text).strip()
-        
         return text
 
     def _try_parse_json(self, json_text, target_fields):
         """
-        Пытается распарсить JSON и вернуть только нужные поля.
+        Пробует распарсить JSON и вернуть только нужные поля.
         """
         if not json_text or not json_text.strip():
             return None
-            
-        # Очищаем текст
         cleaned_json = self._clean_response_text(json_text)
-        
         try:
             data = json.loads(cleaned_json)
-            
-            # Проверяем, что это словарь
             if not isinstance(data, dict):
                 self.logger.debug(f"JSON не является объектом: {type(data)}")
                 return None
-            
-            # Извлекаем только нужные поля
+            # Только нужные поля, все к строке
             result = {}
             for field in target_fields:
                 value = data.get(field, "")
-                # Убеждаемся, что значение - строка
                 if not isinstance(value, str):
                     value = str(value) if value is not None else ""
                 result[field] = value
-            
-            # Проверяем, что хотя бы одно поле не пустое
+            # Хотя бы одно непустое поле
             if all(not v.strip() for v in result.values()):
                 self.logger.debug("Все поля пустые")
                 return None
-                
             return result
-            
         except json.JSONDecodeError as e:
             self.logger.debug(f"JSON decode error: {e} для текста: {repr(cleaned_json[:100])}")
             return None

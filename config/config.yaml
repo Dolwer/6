@@ -14,9 +14,9 @@ search:
 lm_studio:
   api_url: "http://localhost:1234/v1/completions"
   model_name: "qwen3-8b"
-  timeout: 90
+  timeout: 180
   max_tokens: 1024
-  temperature: 0.1
+  temperature: 0.0
   retry_attempts: 2
 
 excel:
