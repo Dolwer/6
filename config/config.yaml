@@ -9,7 +9,7 @@ imap:
 
 search:
   days_back: 14
-  max_emails_per_batch: 100
+  max_emails_per_batch: 10000
 
 lm_studio:
   api_url: "http://localhost:1234/v1/completions"

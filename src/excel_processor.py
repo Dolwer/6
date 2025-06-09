@@ -78,8 +78,8 @@ class ExcelProcessor:
                 parsed = json.loads(match.strip())
                 if self._is_valid_response_json(parsed):
                     return parsed
-            except json.JSONDecodeError:
-                continue
+            except Exception as e:
+                self.excel_logger.warning(f"Failed to parse markdown JSON block: {e}")
 
         # 2. Поиск любых JSON c нужными полями (Price usd, Payment, Inform, ...)
         json_pattern = r'\{[^{}]*(?:"Price usd"[^{}]*|"Payment"[^{}]*|"Inform"[^{}]*)\}'
@@ -89,8 +89,8 @@ class ExcelProcessor:
                 parsed = json.loads(match.strip())
                 if self._is_valid_response_json(parsed):
                     return parsed
-            except json.JSONDecodeError:
-                continue
+            except Exception as e:
+                self.excel_logger.warning(f"Failed to parse regex JSON block: {e}")
 
         # 3. Построчный парсинг с балансировкой скобок (edge-case)
         return self._parse_json_line_by_line(text)
@@ -132,8 +132,8 @@ class ExcelProcessor:
                                 parsed = json.loads(current_json.strip())
                                 if self._is_valid_response_json(parsed):
                                     return parsed
-                            except json.JSONDecodeError:
-                                pass
+                            except Exception as e:
+                                self.excel_logger.warning(f"Failed to parse line-by-line JSON: {e}")
                             current_json = ""
                     elif brace_count > 0:
                         current_json += char
@@ -162,34 +162,62 @@ class ExcelProcessor:
 
     def parse_lm_studio_response(self, raw_response):
         """
-        Устойчивый парсер ответа от LM Studio, поддержка markdown, разных API-форматов.
+        Универсальный парсер LM Studio: поддержка dict, str, list, вложенных структур, с полной диагностикой.
         """
-        self.excel_logger.info(f"=== PARSING LM STUDIO RESPONSE ===")
-        self.excel_logger.info(f"Raw response type: {type(raw_response)}")
+        self.excel_logger.info("=== PARSING LM STUDIO RESPONSE ===")
         try:
+            # 1. Если dict — проверяем как есть, или рекурсивно ищем валидный json
+            if isinstance(raw_response, dict):
+                self.excel_logger.info("Raw response is a dict, not a string.")
+                if self._is_valid_response_json(raw_response):
+                    self.excel_logger.info(f"Dict is valid, returning: {raw_response}")
+                    return raw_response
+                # Ищем по всем значениям (на случай, если dict вложенный)
+                for key, value in raw_response.items():
+                    if isinstance(value, dict):
+                        self.excel_logger.info(f"Checking nested dict at key: {key}")
+                        if self._is_valid_response_json(value):
+                            self.excel_logger.info(f"Nested dict is valid, returning: {value}")
+                            return value
+                    if isinstance(value, list):
+                        for idx, subval in enumerate(value):
+                            if isinstance(subval, dict) and self._is_valid_response_json(subval):
+                                self.excel_logger.info(f"Nested dict in list at key: {key}[{idx}] is valid, returning: {subval}")
+                                return subval
+                self.excel_logger.error("Dict is not a valid response JSON and no valid nested dict found!")
+                return {}
+
+            # 2. Если list — ищем первый валидный dict
+            if isinstance(raw_response, list):
+                self.excel_logger.info("Raw response is a list.")
+                for idx, item in enumerate(raw_response):
+                    if isinstance(item, dict) and self._is_valid_response_json(item):
+                        self.excel_logger.info(f"List item {idx} is valid dict, returning: {item}")
+                        return item
+                self.excel_logger.error("No valid dict found in list response!")
+                return {}
+
+            # 3. Если строка — используем старый парсер
             if raw_response is None:
                 self.excel_logger.error("Raw response is None")
                 return {}
             response_str = str(raw_response)
             self.excel_logger.info(f"Raw response length: {len(response_str)} characters")
-            self.excel_logger.info(f"Raw response preview (first 500 chars): {response_str[:500]}")
+            self.excel_logger.info(f"Raw response preview: {response_str[:200]}...")
+            text_content = self._extract_text_from_api_response(response_str)
+            self.excel_logger.info(f"Extracted text content length: {len(text_content)}")
+            parsed_json = self._extract_json_from_text(text_content)
+            if parsed_json:
+                self.excel_logger.info("PARSING SUCCESS")
+                self.excel_logger.info(f"Parsed JSON: {parsed_json}")
+                return parsed_json
+            else:
+                self.excel_logger.error("PARSING FAILED - no valid JSON found")
+                self.excel_logger.error(f"Text content was: {text_content}")
+                return {}
         except Exception as e:
-            self.excel_logger.error(f"Failed to convert raw_response to string: {e}")
-            return {}
-
-        # Извлекаем текст из API-ответа
-        text_content = self._extract_text_from_api_response(response_str)
-        # Пытаемся вытащить JSON
-        parsed_json = self._extract_json_from_text(text_content)
-
-        if parsed_json:
-            self.excel_logger.info(f"=== PARSING SUCCESS ===")
-            self.excel_logger.info(f"Successfully parsed JSON: {parsed_json}")
-            return parsed_json
-        else:
-            self.excel_logger.error("=== PARSING FAILED ===")
-            self.excel_logger.error("No valid JSON objects found in response")
-            self.excel_logger.error(f"Text content was: {text_content[:1000]}")
+            self.excel_logger.error(f"Exception in parse_lm_studio_response: {e}")
+            self.excel_logger.error(f"Traceback: {traceback.format_exc()}")
             return {}
 
     def _extract_text_from_api_response(self, response_str):
